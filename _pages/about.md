@@ -37,13 +37,30 @@ My research interest includes **Singing voice Synthesis and Music Generation**. 
 <div class='paper-box'>
     <div class='paper-box-image'>
         <div>
-            <div class="badge">Arxiv 2024</div>
+            <div class="badge">AAAI 2024</div>
+            <img src='../../images/stylesinger.png' alt="sym" width="100%"></div>
+        </div>
+        <div class='paper-box-text' markdown="1">
+
+[StyleSinger: Style Transfer for Out-of-Domain Singing Voice Synthesis](https://ojs.aaai.org/index.php/AAAI/article/view/29932) \\
+**Yu Zhang**, Rongjie Huang, Ruiqi Li, et al.
+
+[![](https://img.shields.io/github/stars/AaronZ345/StyleSinger?style=social&label=Project+Stars)](https://github.com/AaronZ345/StyleSinger) [**Demo**](https://stylesinger.github.io)
+
+- StyleSinger is the first singing voice synthesis model for zero-shot style transfer of out-of-domain reference singing voice samples. 
+</div>
+</div>
+
+<div class='paper-box'>
+    <div class='paper-box-image'>
+        <div>
+            <div class="badge">NIPS 2024</div>
             <img src='../../images/gtsinger.png' alt="sym" width="100%"></div>
         </div>
         <div class='paper-box-text' markdown="1">
 
 [GTSinger: A Global Multi-Technique Singing Corpus with Realistic Music Scores for All Singing Tasks]() \\
-**Yu Zhang**, Changhao Pan, Wenxiang Guo, Ruiqi Li, Zhiyuan Zhu, Jialei Wang, Wenhao Xu, Jingyu Lu, Zhiqing Hong, Chuxin Wang, LiChao Zhang, Jinzheng He, Ziyue Jiang, Yuxin Chen, Chen Yang,Jiecheng Zhou, Xinyu Cheng, Zhou Zhao
+**Yu Zhang**, Changhao Pan, Wenxinag Guo, et al.
 
 [![](https://img.shields.io/github/stars/GTSinger/GTSinger?style=social&label=Project+Stars)](https://github.com/GTSinger/GTSinger) [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue?label=Dataset)](https://huggingface.co/datasets/GTSinger/GTSinger) [**Demo**](https://gtsinger.github.io)
 
@@ -54,5 +71,5 @@ My research interest includes **Singing voice Synthesis and Music Generation**. 
 ## 🎼 Music Generation 
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2020.09 - 2025.06 (now)*, PhD, Computer Science, College of Computer Science and Technology, Zhejiang University, Hangzhou, Zhejiang
+- *2016.09 - 2020.06*, Undergraduate, Computer Science & Automation, Chu Kochen Honors College & College of Computer Science and Technology, Zhejiang University, Hangzhou, Zhejiang
