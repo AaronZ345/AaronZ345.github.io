@@ -45,7 +45,7 @@ My research interest includes **Singing voice Synthesis and Music Generation**. 
 [StyleSinger: Style Transfer for Out-of-Domain Singing Voice Synthesis](https://ojs.aaai.org/index.php/AAAI/article/view/29932) \\
 **Yu Zhang**, Rongjie Huang, Ruiqi Li, et al.
 
-[![](https://img.shields.io/github/stars/AaronZ345/StyleSinger?style=social&label=Project+Stars)](https://github.com/AaronZ345/StyleSinger) [**Demo**](https://stylesinger.github.io)
+[![](https://img.shields.io/github/stars/AaronZ345/StyleSinger?style=social&label=StyleSinger+Stars)](https://github.com/AaronZ345/StyleSinger) [**Demo**](https://stylesinger.github.io) <strong><span class='show_paper_citations' data='DkA9A6LsAAAAJ:u5HHmVD_uO8C'></span></strong>
 
 - StyleSinger is the first singing voice synthesis model for zero-shot style transfer of out-of-domain reference singing voice samples. 
 </div>
@@ -62,7 +62,7 @@ My research interest includes **Singing voice Synthesis and Music Generation**. 
 [GTSinger: A Global Multi-Technique Singing Corpus with Realistic Music Scores for All Singing Tasks]() \\
 **Yu Zhang**, Changhao Pan, Wenxinag Guo, et al.
 
-[![](https://img.shields.io/github/stars/GTSinger/GTSinger?style=social&label=Project+Stars)](https://github.com/GTSinger/GTSinger) [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue?label=Dataset)](https://huggingface.co/datasets/GTSinger/GTSinger) [**Demo**](https://gtsinger.github.io)
+[![](https://img.shields.io/github/stars/GTSinger/GTSinger?style=social&label=GTSinger+Stars)](https://github.com/GTSinger/GTSinger) [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue?label=Dataset)](https://huggingface.co/datasets/GTSinger/GTSinger) [**Demo**](https://gtsinger.github.io) 
 
 - GTSinger is a large Global, multi-Technique, free-to-use, high-quality singing corpus with realistic music scores, designed for all singing tasks.
 </div>
