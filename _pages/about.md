@@ -48,7 +48,7 @@ My research interest includes **Singing voice Synthesis and Music Generation**. 
 [StyleSinger: Style Transfer for Out-of-Domain Singing Voice Synthesis](https://ojs.aaai.org/index.php/AAAI/article/view/29932) \\
 **Yu Zhang**, Rongjie Huang, Ruiqi Li, et al.
 
-[![](https://img.shields.io/github/stars/AaronZ345/StyleSinger?style=social&label=StyleSinger+Stars)](https://github.com/AaronZ345/StyleSinger) [**Demo**](https://stylesinger.github.io) | <strong><span class='show_paper_citations' data='DkA9A6LsAAAAJ:u5HHmVD_uO8C'></span></strong>
+[![](https://img.shields.io/github/stars/AaronZ345/StyleSinger?style=social&label=StyleSinger+Stars)](https://github.com/AaronZ345/StyleSinger) [**Demo**](https://stylesinger.github.io) 
 
 - StyleSinger is the first singing voice synthesis model for zero-shot style transfer of out-of-domain reference singing voice samples. 
 </div>
