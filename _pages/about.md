@@ -96,3 +96,7 @@ My research interests include **Singing voice Synthesis and Music Generation**. 
 # 📖 Educations
 - *2020.09 - 2025.06 (Expected)*, PhD, Computer Science, College of Computer Science and Technology, Zhejiang University, Hangzhou, Zhejiang
 - *2016.09 - 2020.06*, Undergraduate, Computer Science & Automation, Chu Kochen Honors College, Zhejiang University, Hangzhou, Zhejiang
+
+# 💻 Internships
+- *2019.07-2020.01* Visiting Scholar at [University of Massachusetts Amherst](https://www.umass.edu/), working with [Prof. Przemyslaw Grabowicz](https://www.cics.umass.edu/about/directory/przemyslaw-grabowicz).
+- *2020.06-2020.09* [Alibaba-Zhejiang University Joint Institute of Frontier Technologies](https://azft.alibaba.com/), working with [Prof. Jianke Zhu](https://person.zju.edu.cn/en/jkzhu)
