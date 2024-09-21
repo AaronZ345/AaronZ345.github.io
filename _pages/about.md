@@ -72,6 +72,22 @@ My research interests include **Singing voice Synthesis and Music Generation**. 
 </div>
 </div>
 
+<div class='paper-box'>
+    <div class='paper-box-image'>
+        <div>
+            <div class="badge">EMNLP 2024</div>
+            <img src='../../images/stylesinger2.png' alt="sym" width="100%"></div>
+        </div>
+        <div class='paper-box-text' markdown="1">
+
+[StyleSinger 2: Zero-Shot Singing Voice Synthesis with Style Transfer and Multi-Level Style Control]() \\
+**Yu Zhang**, Ziyue Jiang, Ruiqi Li, et al.
+
+[![](https://img.shields.io/github/stars/AaronZ345/StyleSinger2?style=social&label=StyleSinger+Stars)](https://github.com/AaronZ345/StyleSinger2) [**Demo**](https://stylesinger2.github.io) 
+
+- StyleSinger 2 is the first zero-shot SVS model for style transfer across cross-lingual speech and singing styles, along with multi-level style control. 
+</div>
+</div>
 
 - `ACL 2024`[Robust Singing Voice Transcription Serves Synthesis](https://arxiv.org/abs/2405.09940), Ruiqi Li, **Yu Zhang**, Yongqi Wang, et al. [![](https://img.shields.io/github/stars/RickyL-2000/ROSVOT?style=social&label=ROSVOT+Stars)](https://github.com/RickyL-2000/ROSVOT)
 
