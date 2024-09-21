@@ -58,23 +58,6 @@ My research interests include **Singing Voice Synthesis, Music Generation, and N
 <div class='paper-box'>
     <div class='paper-box-image'>
         <div>
-            <div class="badge">NIPS 2024</div>
-            <img src='../../images/gtsinger.png' alt="sym" width="100%"></div>
-        </div>
-        <div class='paper-box-text' markdown="1">
-
-[GTSinger: A Global Multi-Technique Singing Corpus with Realistic Music Scores for All Singing Tasks]() \\
-**Yu Zhang**, Changhao Pan, Wenxinag Guo, et al.
-
-[**Project**](https://gtsinger.github.io) \| [![](https://img.shields.io/github/stars/GTSinger/GTSinger?style=social&label=GTSinger+Stars)](https://github.com/GTSinger/GTSinger) [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue?label=Dataset)](https://huggingface.co/datasets/GTSinger/GTSinger) 
-
-- GTSinger is a large Global, multi-Technique, free-to-use, high-quality singing corpus with realistic music scores, designed for all singing tasks.
-</div>
-</div>
-
-<div class='paper-box'>
-    <div class='paper-box-image'>
-        <div>
             <div class="badge">EMNLP 2024</div>
             <img src='../../images/stylesinger2.png' alt="sym" width="100%"></div>
         </div>
@@ -86,6 +69,23 @@ My research interests include **Singing Voice Synthesis, Music Generation, and N
 [**Project**](https://stylesinger2.github.io) \| 
 [![](https://img.shields.io/github/stars/AaronZ345/StyleSinger2?style=social&label=StyleSinger+Stars)](https://github.com/AaronZ345/StyleSinger2) 
 - StyleSinger 2 is the first zero-shot SVS model for style transfer across cross-lingual speech and singing styles, along with multi-level style control. 
+</div>
+</div>
+
+<div class='paper-box'>
+    <div class='paper-box-image'>
+        <div>
+            <div class="badge">NIPS 2024</div>
+            <img src='../../images/gtsinger.png' alt="sym" width="100%"></div>
+        </div>
+        <div class='paper-box-text' markdown="1">
+
+[GTSinger: A Global Multi-Technique Singing Corpus with Realistic Music Scores for All Singing Tasks]() \\
+**Yu Zhang**, Changhao Pan, Wenxinag Guo, et al.
+
+[**Project**](https://gtsinger.github.io) \| [![](https://img.shields.io/github/stars/GTSinger/GTSinger?style=social&label=GTSinger+Stars)](https://github.com/GTSinger/GTSinger) [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue?label=Dataset)](https://huggingface.co/datasets/GTSinger/GTSinger) 
+
+- GTSinger is a large Global, multi-Technique, free-to-use, high-quality singing corpus with realistic music scores, designed for all singing tasks.
 </div>
 </div>
 
