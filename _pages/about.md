@@ -89,7 +89,7 @@ My research interests include **Singing Voice Synthesis, Music Generation, and N
 </div>
 </div>
 
-- <span class="badge">ACL 2024</span> <a href="https://arxiv.org/abs/2405.09940">Robust Singing Voice Transcription Serves Synthesis</a>, Ruiqi Li, <strong>Yu Zhang</strong>, Yongqi Wang, et al. <a href="https://github.com/RickyL-2000/ROSVOT"><img src="https://img.shields.io/github/stars/RickyL-2000/ROSVOT?style=social&label=ROSVOT+Stars" alt="ROSVOT Stars"></a>
+- ``ACL 2024`` [Robust Singing Voice Transcription Serves Synthesis](https://arxiv.org/abs/2405.09940), Ruiqi Li, **Yu Zhang**, Yongqi Wang, et al. [![](https://img.shields.io/github/stars/RickyL-2000/ROSVOT?style=social&label=ROSVOT+Stars)](https://github.com/RickyL-2000/ROSVOT)
 
 ## 🎼 Music Generation 
 
