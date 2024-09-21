@@ -93,6 +93,10 @@ My research interests include **Singing Voice Synthesis, Music Generation, and N
 
 ## 🎼 Music Generation 
 
+# 🎖 Honors and Awards
+
+- *2019.09* First-Class Academic Scholarship of Zhejiang University (Undergraduate) (Top 5%)
+
 # 📖 Educations
 - *2020.09 - 2025.06 (Expected)*, PhD, Computer Science, College of Computer Science and Technology, Zhejiang University, Hangzhou, Zhejiang
 - *2016.09 - 2020.06*, Undergraduate, Computer Science & Automation, Chu Kochen Honors College, Zhejiang University, Hangzhou, Zhejiang
