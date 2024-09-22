@@ -67,7 +67,7 @@ My research interests include **Singing Voice Synthesis, Music Generation, and N
 **Yu Zhang**, Ziyue Jiang, Ruiqi Li, et al.
 
 [**Project**](https://stylesinger2.github.io) \| 
-[![](https://img.shields.io/github/stars/AaronZ345/StyleSinger2?style=social&label=StyleSinger+Stars)](https://github.com/AaronZ345/StyleSinger2) 
+[![](https://img.shields.io/github/stars/AaronZ345/StyleSinger2?style=social&label=StyleSinger2+Stars)](https://github.com/AaronZ345/StyleSinger2) 
 - StyleSinger 2 is the first zero-shot SVS model for style transfer across cross-lingual speech and singing styles, along with multi-level style control. 
 </div>
 </div>
