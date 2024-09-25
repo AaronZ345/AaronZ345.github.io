@@ -46,7 +46,7 @@ My research interests include **Singing Voice Synthesis, Music Generation, and N
         </div>
         <div class='paper-box-text' markdown="1">
 
-[StyleSinger: Style Transfer for Out-of-Domain Singing Voice Synthesis](https://ojs.aaai.org/index.php/AAAI/article/view/29932) \\
+[StyleSinger: Style Transfer for Out-of-Domain Singing Voice Synthesis](https://arxiv.org/abs/2312.10741) \\
 **Yu Zhang**, Rongjie Huang, Ruiqi Li, et al.
 
 [**Project**](https://stylesinger.github.io) \| [![](https://img.shields.io/github/stars/AaronZ345/StyleSinger?style=social&label=StyleSinger+Stars)](https://github.com/AaronZ345/StyleSinger)
@@ -63,7 +63,7 @@ My research interests include **Singing Voice Synthesis, Music Generation, and N
         </div>
         <div class='paper-box-text' markdown="1">
 
-[StyleSinger 2: Zero-Shot Singing Voice Synthesis with Style Transfer and Multi-Level Style Control]() \\
+[StyleSinger 2: Zero-Shot Singing Voice Synthesis with Style Transfer and Multi-Level Style Control](https://arxiv.org/abs/2409.15977) \\
 **Yu Zhang**, Ziyue Jiang, Ruiqi Li, et al.
 
 [**Project**](https://stylesinger2.github.io) \| 
@@ -80,7 +80,7 @@ My research interests include **Singing Voice Synthesis, Music Generation, and N
         </div>
         <div class='paper-box-text' markdown="1">
 
-[GTSinger: A Global Multi-Technique Singing Corpus with Realistic Music Scores for All Singing Tasks]() \\
+[GTSinger: A Global Multi-Technique Singing Corpus with Realistic Music Scores for All Singing Tasks](https://arxiv.org/abs/2409.13832) \\
 **Yu Zhang**, Changhao Pan, Wenxinag Guo, et al.
 
 [**Project**](https://gtsinger.github.io) \| [![](https://img.shields.io/github/stars/GTSinger/GTSinger?style=social&label=GTSinger+Stars)](https://github.com/GTSinger/GTSinger) [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue?label=Dataset)](https://huggingface.co/datasets/GTSinger/GTSinger) 
