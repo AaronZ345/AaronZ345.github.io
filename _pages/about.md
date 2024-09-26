@@ -59,16 +59,16 @@ My research interests include **Singing Voice Synthesis, Music Generation, and N
     <div class='paper-box-image'>
         <div>
             <div class="badge">EMNLP 2024</div>
-            <img src='../../images/stylesinger2.png' alt="sym" width="100%"></div>
+            <img src='../../images/tcsinger.png' alt="sym" width="100%"></div>
         </div>
         <div class='paper-box-text' markdown="1">
 
-[StyleSinger 2: Zero-Shot Singing Voice Synthesis with Style Transfer and Multi-Level Style Control](https://arxiv.org/abs/2409.15977) \\
+[TCSinger: Zero-Shot Singing Voice Synthesis with Style Transfer and Multi-Level Style Control](https://arxiv.org/abs/2409.15977) \\
 **Yu Zhang**, Ziyue Jiang, Ruiqi Li, et al.
 
-[**Project**](https://stylesinger2.github.io) \| 
-[![](https://img.shields.io/github/stars/AaronZ345/StyleSinger2?style=social&label=StyleSinger2+Stars)](https://github.com/AaronZ345/StyleSinger2) 
-- StyleSinger 2 is the first zero-shot SVS model for style transfer across cross-lingual speech and singing styles, along with multi-level style control. 
+[**Project**](https://tcsinger.github.io) \| 
+[![](https://img.shields.io/github/stars/AaronZ345/TCSinger?style=social&label=TCSinger+Stars)](https://github.com/AaronZ345/TCSinger) 
+- TCSinger is the first zero-shot SVS model for style transfer across cross-lingual speech and singing styles, along with multi-level style control. 
 </div>
 </div>
 
