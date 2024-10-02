@@ -29,6 +29,7 @@ My research interests include **Singing Voice Synthesis, Music Generation, and N
 **I am actively seeking postdoctoral positions and research collaborations. Please feel free to contact me via email at yuzhang34@zju.edu.cn.**
 
 # 🔥 News
+- *2024.09*: We released the full dataset of [GTSinger](https://huggingface.co/datasets/GTSinger/GTSinger) (A Global Multi-Technique Singing Corpus for all singing tasks)!
 - *2024.09*: 🎉 1 paper is accepted by NeurIPS 2024 (Spotlight)!
 - *2024.09*: 🎉 1 paper is accepted by EMNLP 2024!
 - *2024.06*: We released the code of [GTSinger](https://github.com/GTSinger/GTSinger) (A Global Multi-Technique Singing Corpus for all singing tasks)!
@@ -104,4 +105,5 @@ My research interests include **Singing Voice Synthesis, Music Generation, and N
 - *2016.09 - 2020.06*, Undergraduate, Computer Science & Automation, Chu Kochen Honors College, Zhejiang University, Hangzhou, Zhejiang
 
 # 💻 Research and Internships
+- *2020.06-2020.09* [Alibaba-Zhejiang University Joint Institute of Frontier Technologies](https://azft.alibaba.com/), working with [Prof. Jianke Zhu](https://person.zju.edu.cn/en/jkzhu)
 - *2019.07-2020.01* Visiting Scholar at [University of Massachusetts Amherst](https://www.umass.edu/), working with [Prof. Przemyslaw Grabowicz](https://www.cics.umass.edu/about/directory/przemyslaw-grabowicz).
