@@ -99,6 +99,7 @@ My research interests include **Singing Voice Synthesis, Music Generation, Audio
 
 # 🎖 Honors and Awards
 
+- *2024.09* Outstanding PhD Student Scholarship of Zhejiang University (Top 10%)
 - *2019.09* First-Class Academic Scholarship of Zhejiang University (Undergraduate) (Top 5%)
 
 # 📖 Educations
