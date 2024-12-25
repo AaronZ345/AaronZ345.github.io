@@ -107,7 +107,7 @@ My research interests primarily focus on **Multi-Modal Generative AI**, specific
 </div>
 
 - `AAAI 2025` [TechSinger: Technique Controllable Multilingual Singing Voice Synthesis via Flow Matching](), Wenxiang Guo, **Yu Zhang**, Changhao Pan, et al.
-- `ACL 2024` [Robust Singing Voice Transcription Serves Synthesis](https://aclanthology.org/2024.acl-long.526/), Ruiqi Li, **Yu Zhang**, Yongqi Wang, et al. [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2405.09940) [![](https://img.shields.io/github/stars/RickyL-2000/ROSVOT?style=social&label=ROSVOT+Stars)](https://github.com/RickyL-2000/ROSVOT)
+- `ACL 2024` [Robust Singing Voice Transcription Serves Synthesis](https://aclanthology.org/2024.acl-long.526/), Ruiqi Li, **Yu Zhang**, Yongqi Wang, et al. [![](https://img.shields.io/github/stars/RickyL-2000/ROSVOT?style=social&label=ROSVOT+Stars)](https://github.com/RickyL-2000/ROSVOT)
 
 # 🎖 Honors and Awards
 
