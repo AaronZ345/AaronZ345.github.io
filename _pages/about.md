@@ -37,6 +37,7 @@ My research interests include **Multi-Modal Generative AI, Multi-Modal Language 
 - *2024.06*: We released the code of [GTSinger](https://github.com/GTSinger/GTSinger) (A Global Multi-Technique Singing Corpus for all singing tasks)!
 - *2024.05*: 🎉 1 paper is accepted by ACL 2024!
 - *2024.05*: We released the code of [StyleSinger](https://github.com/AaronZ345/StyleSinger) (Style Transfer for Out-of-Domain Singing Voice Synthesis)!
+- *2023.12*: 🎉 1 paper is accepted by AAAI 2024!
 
 # 📝 Publications 
 
