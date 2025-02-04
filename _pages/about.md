@@ -40,10 +40,10 @@ My research interests primarily focus on **Multi-Modal Generative AI**, specific
   <ul>
     <li><strong>2024.12</strong>: 🎉 1 paper is accepted by AAAI 2025!</li>
     <li><strong>2024.11</strong>: We released the code of <a href="https://github.com/AaronZ345/TCSinger">TCSinger</a> (Zero-Shot Singing Voice Synthesis with Style Transfer and Multi-Level Style Control)!</li>
-    <li><strong>2024.09</strong>: We released the full dataset of <a href="https://huggingface.co/datasets/GTSinger/GTSinger">GTSinger</a> (A Global Multi-Technique Singing Corpus for all singing tasks)!</li>
+    <li><strong>2024.09</strong>: We released the full dataset of <a href="https://huggingface.co/datasets/AaronZ345/GTSinger">GTSinger</a> (A Global Multi-Technique Singing Corpus for all singing tasks)!</li>
     <li><strong>2024.09</strong>: 🎉 1 paper is accepted by NeurIPS 2024 (Spotlight)!</li>
     <li><strong>2024.09</strong>: 🎉 1 paper is accepted by EMNLP 2024!</li>
-    <li><strong>2024.06</strong>: We released the code of <a href="https://github.com/GTSinger/GTSinger">GTSinger</a> (A Global Multi-Technique Singing Corpus for all singing tasks)!</li>
+    <li><strong>2024.06</strong>: We released the code of <a href="https://github.com/AaronZ345/GTSinger">GTSinger</a> (A Global Multi-Technique Singing Corpus for all singing tasks)!</li>
     <li><strong>2024.05</strong>: 🎉 1 paper is accepted by ACL 2024!</li>
     <li><strong>2024.05</strong>: We released the code of <a href="https://github.com/AaronZ345/StyleSinger">StyleSinger</a> (Style Transfer for Out-of-Domain Singing Voice Synthesis)!</li>
     <li><strong>2023.12</strong>: 🎉 1 paper is accepted by AAAI 2024!</li>
@@ -65,7 +65,7 @@ My research interests primarily focus on **Multi-Modal Generative AI**, specific
 [GTSinger: A Global Multi-Technique Singing Corpus with Realistic Music Scores for All Singing Tasks](https://arxiv.org/abs/2409.13832) \\
 **Yu Zhang**, Changhao Pan, Wenxinag Guo, et al.
 
-[**Project**](https://aaronz345.github.io/GTSingerDemo/) \| [![](https://img.shields.io/github/stars/GTSinger/GTSinger?style=social&label=GTSinger+Stars)](https://github.com/GTSinger/GTSinger) [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue?label=Dataset)](https://huggingface.co/datasets/GTSinger/GTSinger) 
+[**Project**](https://aaronz345.github.io/GTSingerDemo/) \| [![](https://img.shields.io/github/stars/AaronZ345/GTSinger?style=social&label=GTSinger+Stars)](https://github.com/AaronZ345/GTSinger) [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue?label=Dataset)](https://huggingface.co/datasets/AaronZ345/GTSinger) 
 
 - GTSinger is a large Global, multi-Technique, free-to-use, high-quality singing corpus with realistic music scores, designed for all singing tasks.
 - Our work is promoted by multiple media and forums, such as [![weixin](https://img.shields.io/badge/-WeChat@机器之心-000000?logo=wechat&logoColor=07C160)](https://mp.weixin.qq.com/s/B1Iqr-24l57f0MslzYEslA), [![weixin](https://img.shields.io/badge/-WeChat@PaperWeekly-000000?logo=wechat&logoColor=07C160)](https://mp.weixin.qq.com/s/6RLdUzJM5PItklKUTTNz2w), and [![zhihu](https://img.shields.io/badge/-知乎-000000?logo=zhihu&logoColor=0084FF)](https://zhuanlan.zhihu.com/p/993933492).
