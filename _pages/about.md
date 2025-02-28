@@ -52,7 +52,7 @@ My research interests primarily focus on **Multi-Modal Generative AI**, specific
 
 # 📝 Publications 
 
-## 🎙 Singing Voice Synthesis
+## 🎤 Singing Voice Synthesis
 
 <div class='paper-box'>
     <div class='paper-box-image'>
@@ -107,6 +107,10 @@ My research interests primarily focus on **Multi-Modal Generative AI**, specific
 
 - `AAAI 2025` [TechSinger: Technique Controllable Multilingual Singing Voice Synthesis via Flow Matching](https://arxiv.org/abs/2502.12572), Wenxiang Guo, **Yu Zhang**, Changhao Pan, et al. \| [**Project**](https://tech-singer.github.io/) 
 - `ACL 2024` [Robust Singing Voice Transcription Serves Synthesis](https://arxiv.org/abs/2405.09940), Ruiqi Li, **Yu Zhang**, Yongqi Wang, et al. \| [**Project**](https://rosvot.github.io/) \| [![](https://img.shields.io/github/stars/RickyL-2000/ROSVOT?style=social&label=ROSVOT+Stars)](https://github.com/RickyL-2000/ROSVOT)
+
+## 🎙 Speech Synthesis
+
+- `Arxiv` [Sparse Alignment Enhanced Latent Diffusion Transformer for Zero-Shot Speech Synthesis](https://www.arxiv.org/abs/2502.18924), Ziyue Jiang, Yi Ren, Ruiqi Li, Shengpeng Ji, Zhenhui Ye, Chen Zhang, Bai Jionghao, Xiaoda Yang, Jialong Zuo, Yu Zhang, et al. \| [**Project**](https://sditdemo.github.io/sditdemo/) 
 
 # 🎖 Honors and Awards
 
