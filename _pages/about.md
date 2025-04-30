@@ -32,6 +32,6 @@ redirect_from:
 
 {% include_relative includes/other.md %}
 
-<div id="clustrmaps-container" style="width: 100px; height: 100px; margin: 20px auto; overflow: hidden;">
+<div id="clustrmaps-container" style="width: 200px; height: 200px; margin: 20px auto; overflow: hidden;">
   <script type="text/javascript" id="clstr_globe" src="https://clustrmaps.com/globe.js?d=1S35OY4EW-icFHp1QQQkUQj6qQja0TJHaHBF_3opuyk"></script>
 </div>
