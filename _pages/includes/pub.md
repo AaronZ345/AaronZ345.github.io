@@ -1,7 +1,7 @@
 
 # 📝 Publications 
 
-#### 🔊 Spatial Audio
+## 🔊 Spatial Audio
 
 <div class='paper-box'>
     <div class='paper-box-image'>
@@ -20,7 +20,7 @@
 </div>
 </div>
 
-#### 🎼 Music Generation
+## 🎼 Music Generation
 
 <div class='paper-box'>
     <div class='paper-box-image'>

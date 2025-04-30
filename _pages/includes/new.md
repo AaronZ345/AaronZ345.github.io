@@ -9,7 +9,7 @@
 
 <div class="scrollable">
   <ul>
-    <li><strong>2025.4</strong>: I come to the <a href="https://www.rochester.edu/">University of Rochester</a> as a visiting scholar, work with <a href="https://www.hajim.rochester.edu/ece/people/faculty/duan_zhiyao">Prof. Zhiyao Duan</a>.</li>
+    <li><strong>2025.04</strong>: I come to the <a href="https://www.rochester.edu/">University of Rochester</a> as a visiting scholar, work with <a href="https://www.hajim.rochester.edu/ece/people/faculty/duan_zhiyao">Prof. Zhiyao Duan</a>.</li>
     <li><strong>2024.12</strong>: 🎉 1 paper is accepted by AAAI 2025!</li>
     <li><strong>2024.11</strong>: We released the code of <a href="https://github.com/AaronZ345/TCSinger">TCSinger</a> (Zero-Shot Singing Voice Synthesis with Style Transfer and Multi-Level Style Control)!</li>
     <li><strong>2024.09</strong>: We released the full dataset of <a href="https://huggingface.co/datasets/GTSinger/GTSinger">GTSinger</a> (A Global Multi-Technique Singing Corpus for all singing tasks)!</li>
