@@ -1,5 +1,6 @@
 
 # 📝 Publications 
+**denotes co-first authors*
 
 ## 🔊 Spatial Audio
 
