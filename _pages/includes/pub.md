@@ -54,7 +54,7 @@
 **Yu Zhang**, Ziyue Jiang, Ruiqi Li, et al.
 
 [**Project**](https://aaronz345.github.io/TCSinger2Demo/) \| [![](https://img.shields.io/github/stars/AaronZ345/TCSinger2?style=social&label=TCSinger2+Stars)](https://github.com/AaronZ345/TCSinger2) 
-- TCSinger is a multi-task multilingual zero-shot SVS model with style transfer and style control based on various prompts.
+- TCSinger 2 is a multi-task multilingual zero-shot SVS model with style transfer and style control based on various prompts.
 </div>
 </div>
 
