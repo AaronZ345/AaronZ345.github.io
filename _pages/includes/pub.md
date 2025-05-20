@@ -45,6 +45,22 @@
 <div class='paper-box'>
     <div class='paper-box-image'>
         <div>
+            <div class="badge">ACL 2025</div>
+            <img src='../../images/tcsinger2.png' alt="sym" width="100%"></div>
+        </div>
+        <div class='paper-box-text' markdown="1">
+
+[TCSinger 2: Customizable Multilingual Zero-shot Singing Voice Synthesis]() \\
+**Yu Zhang**, Ziyue Jiang, Ruiqi Li, et al.
+
+[**Project**](https://aaronz345.github.io/TCSinger2Demo/) \| [![](https://img.shields.io/github/stars/AaronZ345/TCSinger2?style=social&label=TCSinger2+Stars)](https://github.com/AaronZ345/TCSinger2) 
+- TCSinger is a multi-task multilingual zero-shot SVS model with style transfer and style control based on various prompts.
+</div>
+</div>
+
+<div class='paper-box'>
+    <div class='paper-box-image'>
+        <div>
             <div class="badge">EMNLP 2024</div>
             <img src='../../images/tcsinger.png' alt="sym" width="100%"></div>
         </div>
