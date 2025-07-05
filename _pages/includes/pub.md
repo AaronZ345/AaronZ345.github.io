@@ -21,7 +21,7 @@
 </div>
 </div>
 
-- ``ACMMM 2025`` [A Multimodal Evaluation Framework for Spatial Audio Playback Systems: From Localization to Listener Preference](), Changhao Pan, Wenxiang Guo, **Yu Zhang\***, et al. 
+- ``ACMMM 2025`` [A Multimodal Evaluation Framework for Spatial Audio Playback Systems: From Localization to Listener Preference](), Changhao Pan\*, Wenxiang Guo\*, **Yu Zhang\***, et al. 
 
 ## 🎼 Music Generation
 
