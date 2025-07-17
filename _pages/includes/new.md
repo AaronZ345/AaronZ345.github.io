@@ -11,7 +11,7 @@
 <div class="scrollable">
   <ul>
     <li><strong>2025.07</strong>: We released the code of <a href="https://github.com/AaronZ345/TCSinger2">TCSinger2</a> (Customizable Multilingual Zero-shot Singing Voice Synthesis)!</li>
-    <li><strong>2025.07</strong>: We released the full dataset of <a href="https://huggingface.co/datasets/AaronZ345/MRSDrama">MRSDrama</a> 
+    <li><strong>2025.07</strong>: We released the full dataset of <a href="https://huggingface.co/datasets/AaronZ345/MRSDrama">MRSDrama</a> </li>
     <li><strong>2025.07</strong>: 🎉 2 papers are accepted by ACM-MM 2025!</li>
     <li><strong>2025.06</strong>: 🎉 I earned my Ph.D. in Computer Science from Zhejiang University!</li>
     <li><strong>2025.05</strong>: 🎉 2 papers are accepted by ACL 2025!</li>
