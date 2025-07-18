@@ -15,7 +15,7 @@
 [ISDrama: Immersive Spatial Drama Generation through Multimodal Prompting](https://arxiv.org/abs/2504.20630) \\
 **Yu Zhang**, Wenxiang Guo, Changhao Pan, et al.
 
-[**Project**](https://aaronz345.github.io/ISDramaDemo/) \| [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue?label=Dataset)](https://huggingface.co/datasets/AaronZ345/MRSDrama) 
+[**Project**](https://aaronz345.github.io/ISDramaDemo/) \| [![](https://img.shields.io/github/stars/AaronZ345/ISDrama?style=social&label=ISDrama+Stars)](https://github.com/AaronZ345/ISDrama) \| [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue?label=Dataset)](https://huggingface.co/datasets/AaronZ345/MRSDrama) 
 - MRSDrama is the first multimodal recorded spatial drama dataset, containing binaural drama audios, scripts, videos, geometric poses, and textual prompts. 
 - ISDrama is the first immersive spatial drama generation model through multimodal prompting.
 </div>
@@ -118,5 +118,5 @@
 - `ACL 2024` [Robust Singing Voice Transcription Serves Synthesis](https://arxiv.org/abs/2405.09940), Ruiqi Li, **Yu Zhang**, Yongqi Wang, et al. \| [**Project**](https://rosvot.github.io/) \| [![](https://img.shields.io/github/stars/RickyL-2000/ROSVOT?style=social&label=ROSVOT+Stars)](https://github.com/RickyL-2000/ROSVOT)
 
 ## 💬 Speech Synthesis
-
+- ``Preprint`` [Conan: A Chunkwise Online Network for Zero-Shot Adaptive Voice Conversion](), **Yu Zhang**, Baotong Tian, Zhiyao Duan. \| [**Project**](https://aaronz345.github.io/ConanDemo/) 
 - `Preprint` [MegaTTS 3: Sparse Alignment Enhanced Latent Diffusion Transformer for Zero-Shot Speech Synthesis](https://www.arxiv.org/abs/2502.18924), Ziyue Jiang, Yi Ren, Ruiqi Li, Shengpeng Ji, Zhenhui Ye, Chen Zhang, Bai Jionghao, Xiaoda Yang, Jialong Zuo, **Yu Zhang**, et al.
