@@ -18,7 +18,7 @@
 [**Project**](https://aaronz345.github.io/ISDramaDemo/) \| [![](https://img.shields.io/github/stars/AaronZ345/ISDrama?style=social&label=ISDrama+Stars)](https://github.com/AaronZ345/ISDrama) [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue?label=Dataset)](https://huggingface.co/datasets/AaronZ345/MRSDrama) 
 - MRSDrama is the first multimodal recorded spatial drama dataset, containing binaural drama audios, scripts, videos, geometric poses, and textual prompts. 
 - ISDrama is the first immersive spatial drama generation model through multimodal prompting.
-- Our work is promoted by multiple media and forums, such as [![weixin](https://img.shields.io/badge/-WeChat@语音之家-000000?logo=wechat&logoColor=07C160)]() and
+- Our work is promoted by multiple media and forums, such as [![weixin](https://img.shields.io/badge/-WeChat@语音之家-000000?logo=wechat&logoColor=07C160)](https://mp.weixin.qq.com/s/jrKT16zH115ZDYxa0b492w) and
 [![zhihu](https://img.shields.io/badge/-知乎-000000?logo=zhihu&logoColor=0084FF)](https://zhuanlan.zhihu.com/p/1930597017840779306).
 </div>
 </div>
