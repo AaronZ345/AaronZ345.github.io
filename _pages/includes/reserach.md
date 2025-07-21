@@ -1,5 +1,7 @@
 
-# 💻 Research Experiences
+# 💻 Industrial Experiences
+
+# 📚 Research Experiences
 - *2025.04-2025.06* Visiting Scholar at [University of Rochester](\href{https://www.rochester.edu/), working with [Prof. Zhiyao Duan](https://www.hajim.rochester.edu/ece/people/faculty/duan_zhiyao)
 - *2020.06-2020.09* Research Intern at [Alibaba-Zhejiang University Joint Institute of Frontier Technologies](https://azft.alibaba.com/), working with [Prof. Jianke Zhu](https://person.zju.edu.cn/en/jkzhu)
 - *2019.07-2020.01* Visiting Scholar at [University of Massachusetts Amherst](https://www.umass.edu/), working with [Prof. Przemyslaw Grabowicz](https://www.cics.umass.edu/about/directory/przemyslaw-grabowicz).
