@@ -8,10 +8,7 @@ main:
 
   - title: "Publications"
     url: "/#-publications"
-
-  - title: "Honors and Awards"
-    url: "/#-honors-and-awards"
-
+  
   - title: "Educations"
     url: "/#-educations"
 
@@ -20,6 +17,9 @@ main:
 
   - title: "Research Experiences"
     url: "/#-research-experiences"
+
+  - title: "Honors and Awards"
+    url: "/#-honors-and-awards"
 
   - title: "Academic Services"
     url: "/#-academic-services"
