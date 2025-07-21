@@ -7,7 +7,7 @@
 <div class='paper-box'>
     <div class='paper-box-image'>
         <div>
-            <div class="badge">ACMMM 2025</div>
+            <div class="badge">ACM-MM 2025</div>
             <img src='../../images/isdrama.png' alt="sym" width="100%"></div>
         </div>
         <div class='paper-box-text' markdown="1">
@@ -23,7 +23,7 @@
 </div>
 </div>
 
-- ``ACMMM 2025`` [A Multimodal Evaluation Framework for Spatial Audio Playback Systems: From Localization to Listener Preference](), Changhao Pan\*, Wenxiang Guo\*, **Yu Zhang\***, et al. 
+- ``ACM-MM 2025`` [A Multimodal Evaluation Framework for Spatial Audio Playback Systems: From Localization to Listener Preference](), Changhao Pan\*, Wenxiang Guo\*, **Yu Zhang\***, et al. 
 
 ## 🎼 Music Generation
 
