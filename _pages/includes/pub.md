@@ -120,3 +120,6 @@
 ## 💬 Speech Synthesis
 - ``Preprint`` [Conan: A Chunkwise Online Network for Zero-Shot Adaptive Voice Conversion](), **Yu Zhang**, Baotong Tian, Zhiyao Duan. \| [**Project**](https://aaronz345.github.io/ConanDemo/) 
 - `Preprint` [MegaTTS 3: Sparse Alignment Enhanced Latent Diffusion Transformer for Zero-Shot Speech Synthesis](https://www.arxiv.org/abs/2502.18924), Ziyue Jiang, Yi Ren, Ruiqi Li, Shengpeng Ji, Zhenhui Ye, Chen Zhang, Bai Jionghao, Xiaoda Yang, Jialong Zuo, **Yu Zhang**, et al.
+
+## Others
+- ``IJCAI 2025`` [Leveraging Pretrained Diffusion Models for Zero-Shot Part Assembly](https://arxiv.org/abs/2505.00426), Ruiyuan Zhang, Qi Wang, Jiaxiang Liu, **Yu Zhang**, et al.
