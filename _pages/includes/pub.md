@@ -59,7 +59,7 @@
 
 [**Project**](https://aaronz345.github.io/TCSinger2Demo/) \| [![](https://img.shields.io/github/stars/AaronZ345/TCSinger2?style=social&label=TCSinger2+Stars)](https://github.com/AaronZ345/TCSinger2) 
 - TCSinger 2 is a multi-task multilingual zero-shot SVS model with style transfer and style control based on various prompts.
-- Our work is promoted by multiple media and forums, such as [![weixin](https://img.shields.io/badge/-WeChat@语音之家-000000?logo=wechat&logoColor=07C160)](https://mp.weixin.qq.com/s/Uvt27dt2S3TpBjJccl9mTA) and
+- Our work is promoted by multiple media and forums, such as [![weixin](https://img.shields.io/badge/-WeChat@语音之家-000000?logo=wechat&logoColor=07C160)](https://mp.weixin.qq.com/s/Uvt27dt2S3TpBjJccl9mTA), [![weixin](https://img.shields.io/badge/-WeChat@PaperWeekly-000000?logo=wechat&logoColor=07C160)](https://mp.weixin.qq.com/s/c6CPx14y_wASU_dSXKcAJQ), and
 [![zhihu](https://img.shields.io/badge/-知乎-000000?logo=zhihu&logoColor=0084FF)](https://zhuanlan.zhihu.com/p/1928562845236303816).
 </div>
 </div>
