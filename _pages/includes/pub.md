@@ -23,7 +23,9 @@
 </div>
 </div>
 
-- ``ACM-MM 2025`` [A Multimodal Evaluation Framework for Spatial Audio Playback Systems: From Localization to Listener Preference](), Changhao Pan\*, Wenxiang Guo\*, **Yu Zhang\***, et al. 
+- `ACM-MM 2025` [A Multimodal Evaluation Framework for Spatial Audio Playback Systems: From Localization to Listener Preference](), Changhao Pan\*, Wenxiang Guo\*, **Yu Zhang\***, et al. 
+- `Under Review` [ASAudio: A Survey of Advanced Spatial Audio Research](), Zhiyuan Zhu\*, **Yu Zhang\***, Wenxiang Guo\*, et al.
+- `Under Review` [MRSAudio: A Large-Scale Multimodal Recorded Spatial Audio Dataset with Refined Annotations](), Wenxiang Guo\*, Changhao Pan\*, Zhiyuan Zhu\*, Xintong Hu\*, **Yu Zhang\***, et al.
 
 ## 🎼 Music Generation
 
@@ -116,12 +118,13 @@
 </div>
 
 - `ACL 2025` [STARS: A Unified Framework for Singing Transcription, Alignment, and Refined Style Annotation](https://arxiv.org/abs/2507.06670), Wenxiang Guo\*, **Yu Zhang\***, Changhao Pan\*, et al. \| [**Project**](https://demo-stars.github.io/) \| [![](https://img.shields.io/github/stars/gwx314/STARS?style=social&label=STARS+Stars)](https://github.com/gwx314/STARS)
+- `Under Review` [Synthetic Singers: A Review of Deep-Learning-based Singing Voice Synthesis Approaches](), Changhao Pan\*, Dongyu Yao\*, **Yu Zhang\***, et al.
 - `AAAI 2025` [TechSinger: Technique Controllable Multilingual Singing Voice Synthesis via Flow Matching](https://arxiv.org/abs/2502.12572), Wenxiang Guo, **Yu Zhang**, Changhao Pan, et al. \| [**Project**](https://tech-singer.github.io/) \| [![](https://img.shields.io/github/stars/gwx314/TechSinger?style=social&label=TechSinger+Stars)](https://github.com/gwx314/TechSinger)
 - `ACL 2024` [Robust Singing Voice Transcription Serves Synthesis](https://arxiv.org/abs/2405.09940), Ruiqi Li, **Yu Zhang**, Yongqi Wang, et al. \| [**Project**](https://rosvot.github.io/) \| [![](https://img.shields.io/github/stars/RickyL-2000/ROSVOT?style=social&label=ROSVOT+Stars)](https://github.com/RickyL-2000/ROSVOT)
 
 ## 💬 Speech Synthesis
-- ``ASRU 2025`` [Conan: A Chunkwise Online Network for Zero-Shot Adaptive Voice Conversion](https://arxiv.org/abs/2507.14534), **Yu Zhang**, Baotong Tian, Zhiyao Duan. \| [**Project**](https://aaronz345.github.io/ConanDemo/) 
+- `ASRU 2025` [Conan: A Chunkwise Online Network for Zero-Shot Adaptive Voice Conversion](https://arxiv.org/abs/2507.14534), **Yu Zhang**, Baotong Tian, Zhiyao Duan. \| [**Project**](https://aaronz345.github.io/ConanDemo/) 
 - `Preprint` [MegaTTS 3: Sparse Alignment Enhanced Latent Diffusion Transformer for Zero-Shot Speech Synthesis](https://www.arxiv.org/abs/2502.18924), Ziyue Jiang, Yi Ren, Ruiqi Li, Shengpeng Ji, Zhenhui Ye, Chen Zhang, Bai Jionghao, Xiaoda Yang, Jialong Zuo, **Yu Zhang**, et al.
 
 ## 💡 Others
-- ``IJCAI 2025`` [Leveraging Pretrained Diffusion Models for Zero-Shot Part Assembly](https://arxiv.org/abs/2505.00426), Ruiyuan Zhang, Qi Wang, Jiaxiang Liu, **Yu Zhang**, et al.
+- `IJCAI 2025` [Leveraging Pretrained Diffusion Models for Zero-Shot Part Assembly](https://arxiv.org/abs/2505.00426), Ruiyuan Zhang, Qi Wang, Jiaxiang Liu, **Yu Zhang**, et al.
