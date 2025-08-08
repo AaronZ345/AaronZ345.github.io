@@ -25,7 +25,7 @@
 
 - `ACM-MM 2025` [A Multimodal Evaluation Framework for Spatial Audio Playback Systems: From Localization to Listener Preference](), Changhao Pan\*, Wenxiang Guo\*, **Yu Zhang\***, et al. 
 - `Under Review` [ASAudio: A Survey of Advanced Spatial Audio Research](), Zhiyuan Zhu\*, **Yu Zhang\***, Wenxiang Guo\*, et al. \| [![](https://img.shields.io/github/stars/dieKarotte/ASAudio?style=social&label=GitHub+Stars)](https://github.com/dieKarotte/ASAudio)
-- `Under Review` [MRSAudio: A Large-Scale Multimodal Recorded Spatial Audio Dataset with Refined Annotations](), Wenxiang Guo\*, Changhao Pan\*, Zhiyuan Zhu\*, Xintong Hu\*, **Yu Zhang\***, et al. \| [**Project**](https://mrsaudio.github.io/) \| [![]([https://img.shields.io/github/stars/https://github.com/](https://img.shields.io/github/stars/MRSAudio/MRSAudio_Main?style=social&label=GitHub+Stars)](https://github.com/MRSAudio/MRSAudio_Main) [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue?label=Dataset)](https://huggingface.co/datasets/verstar/MRSAudio) 
+- `Under Review` [MRSAudio: A Large-Scale Multimodal Recorded Spatial Audio Dataset with Refined Annotations](), Wenxiang Guo\*, Changhao Pan\*, Zhiyuan Zhu\*, Xintong Hu\*, **Yu Zhang\***, et al. \| [**Project**](https://mrsaudio.github.io/) \| [![]([https://img.shields.io/github/stars/MRSAudio/MRSAudio_Main?style=social&label=GitHub+Stars)](https://github.com/MRSAudio/MRSAudio_Main) [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue?label=Dataset)](https://huggingface.co/datasets/verstar/MRSAudio) 
 
 ## 🎼 Music Generation
 
