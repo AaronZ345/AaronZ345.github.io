@@ -15,7 +15,7 @@
 [ISDrama: Immersive Spatial Drama Generation through Multimodal Prompting](https://arxiv.org/abs/2504.20630) \\
 **Yu Zhang**, Wenxiang Guo, Changhao Pan, et al.
 
-[![Demo](https://img.shields.io/badge/🚀%20Demo%20Page-blue)](https://aaronz345.github.io/ISDramaDemo/) [![](https://img.shields.io/github/stars/AaronZ345/ISDrama?style=social&label=GitHub+Stars)](https://github.com/AaronZ345/ISDrama) [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue?label=Dataset)](https://huggingface.co/datasets/AaronZ345/MRSDrama) 
+[![Demo](https://img.shields.io/badge/🚀%20Demo%20Page-blue)](https://aaronz345.github.io/ISDramaDemo/) [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue?label=Dataset)](https://huggingface.co/datasets/AaronZ345/MRSDrama) [![](https://img.shields.io/github/stars/AaronZ345/ISDrama?style=social&label=GitHub+Stars)](https://github.com/AaronZ345/ISDrama) 
 - MRSDrama is the first multimodal recorded spatial drama dataset, containing binaural drama audios, scripts, videos, geometric poses, and textual prompts. 
 - ISDrama is the first immersive spatial drama generation model through multimodal prompting.
 - Our work is promoted by multiple media and forums, such as [![weixin](https://img.shields.io/badge/-WeChat@语音之家-000000?logo=wechat&logoColor=07C160)](https://mp.weixin.qq.com/s/jrKT16zH115ZDYxa0b492w), [![weixin](https://img.shields.io/badge/-WeChat@PaperWeekly-000000?logo=wechat&logoColor=07C160)](https://mp.weixin.qq.com/s/ZIC8rHDkwsKwcBwEi4v4DQ), and
@@ -25,7 +25,7 @@
 
 - `ACM-MM 2025` [A Multimodal Evaluation Framework for Spatial Audio Playback Systems: From Localization to Listener Preference](), Changhao Pan\*, Wenxiang Guo\*, **Yu Zhang\***, et al. 
 - `Under Review` [ASAudio: A Survey of Advanced Spatial Audio Research](), Zhiyuan Zhu\*, **Yu Zhang\***, Wenxiang Guo\*, et al. \| [![](https://img.shields.io/github/stars/dieKarotte/ASAudio?style=social&label=GitHub+Stars)](https://github.com/dieKarotte/ASAudio)
-- `Under Review` [MRSAudio: A Large-Scale Multimodal Recorded Spatial Audio Dataset with Refined Annotations](), Wenxiang Guo\*, Changhao Pan\*, Zhiyuan Zhu\*, Xintong Hu\*, **Yu Zhang\***, et al. \| [![Demo](https://img.shields.io/badge/🚀%20Demo%20Page-blue)](https://mrsaudio.github.io/)  [![](https://img.shields.io/github/stars/MRSAudio/MRSAudio_Main?style=social&label=GitHub+Stars)](https://github.com/MRSAudio/MRSAudio_Main) [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue?label=Dataset)](https://huggingface.co/datasets/verstar/MRSAudio) 
+- `Under Review` [MRSAudio: A Large-Scale Multimodal Recorded Spatial Audio Dataset with Refined Annotations](), Wenxiang Guo\*, Changhao Pan\*, Zhiyuan Zhu\*, Xintong Hu\*, **Yu Zhang\***, et al. \| [![Demo](https://img.shields.io/badge/🚀%20Demo%20Page-blue)](https://mrsaudio.github.io/) [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue?label=Dataset)](https://huggingface.co/datasets/verstar/MRSAudio) [![](https://img.shields.io/github/stars/MRSAudio/MRSAudio_Main?style=social&label=GitHub+Stars)](https://github.com/MRSAudio/MRSAudio_Main) 
 
 ## 🎼 Music Generation
 
@@ -40,7 +40,7 @@
 [Versatile Framework for Song Generation with Prompt-based Control](https://arxiv.org/abs/2504.19062) \\
 **Yu Zhang**, Wenxiang Guo, Changhao Pan, et al.
 
-[**Project**](https://aaronz345.github.io/VersBandDemo/) 
+[![Demo](https://img.shields.io/badge/🚀%20Demo%20Page-blue)](https://aaronz345.github.io/VersBandDemo/) 
 - VersBand is a multi-task song generation framework for synthesizing high-quality, aligned songs with prompt-based control. 
 </div>
 </div>
@@ -93,7 +93,7 @@
 [GTSinger: A Global Multi-Technique Singing Corpus with Realistic Music Scores for All Singing Tasks](https://arxiv.org/abs/2409.13832) \\
 **Yu Zhang**, Changhao Pan, Wenxinag Guo, et al.
 
-[![Demo](https://img.shields.io/badge/🚀%20Demo%20Page-blue)](https://aaronz345.github.io/GTSingerDemo/) [![](https://img.shields.io/github/stars/AaronZ345/GTSinger?style=social&label=GitHub+Stars)](https://github.com/AaronZ345/GTSinger) [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue?label=Dataset)](https://huggingface.co/datasets/AaronZ345/GTSinger) 
+[![Demo](https://img.shields.io/badge/🚀%20Demo%20Page-blue)](https://aaronz345.github.io/GTSingerDemo/) [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue?label=Dataset)](https://huggingface.co/datasets/AaronZ345/GTSinger) [![](https://img.shields.io/github/stars/AaronZ345/GTSinger?style=social&label=GitHub+Stars)](https://github.com/AaronZ345/GTSinger) 
 
 - GTSinger is a large Global, multi-Technique, free-to-use, high-quality singing corpus with realistic music scores, designed for all singing tasks.
 - Our work is promoted by multiple media and forums, such as [![weixin](https://img.shields.io/badge/-WeChat@机器之心-000000?logo=wechat&logoColor=07C160)](https://mp.weixin.qq.com/s/B1Iqr-24l57f0MslzYEslA), [![weixin](https://img.shields.io/badge/-WeChat@PaperWeekly-000000?logo=wechat&logoColor=07C160)](https://mp.weixin.qq.com/s/6RLdUzJM5PItklKUTTNz2w), and [![zhihu](https://img.shields.io/badge/-知乎-000000?logo=zhihu&logoColor=0084FF)](https://zhuanlan.zhihu.com/p/993933492).
