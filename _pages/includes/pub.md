@@ -32,7 +32,7 @@
 <div class='paper-box'>
     <div class='paper-box-image'>
         <div>
-            <div class="badge">Preprint</div>
+            <div class="badge">EMNLP 2025</div>
             <img src='../../images/versband.png' alt="sym" width="100%"></div>
         </div>
         <div class='paper-box-text' markdown="1">
@@ -40,7 +40,7 @@
 [Versatile Framework for Song Generation with Prompt-based Control](https://arxiv.org/abs/2504.19062) \\
 **Yu Zhang**, Wenxiang Guo, Changhao Pan, et al.
 
-[![Demo](https://img.shields.io/badge/🚀%20Demo%20Page-blue)](https://aaronz345.github.io/VersBandDemo/) 
+[![Demo](https://img.shields.io/badge/🚀%20Demo%20Page-blue)](https://aaronz345.github.io/VersBandDemo/) [![](https://img.shields.io/github/stars/AaronZ345/VersBand?style=social&label=GitHub+Stars)](https://github.com/AaronZ345/VersBand) 
 - VersBand is a multi-task song generation framework for synthesizing high-quality, aligned songs with prompt-based control. 
 </div>
 </div>
