@@ -10,6 +10,7 @@
 
 <div class="scrollable">
   <ul>
+    <li><strong>2025.08</strong>: 🎉 1 paper is accepted by EMNLP 2025!</li>
     <li><strong>2025.08</strong>: 🎉 1 paper is accepted by ASRU 2025!</li>
     <li><strong>2025.08</strong>: I join <a href="https://www.bytedance.com/en/">ByteDance</a> as a research scientist.</li>
     <li><strong>2025.07</strong>: We released the full dataset and evaluation code of <a href="https://github.com/AaronZ345/ISDrama">ISDrama</a> (Immersive Spatial Drama Generation through Multimodal Prompting)!</li>
