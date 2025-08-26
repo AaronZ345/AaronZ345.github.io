@@ -42,7 +42,7 @@
 
 [![Demo](https://img.shields.io/badge/🚀%20Demo%20Page-blue)](https://aaronz345.github.io/VersBandDemo/) [![](https://img.shields.io/github/stars/AaronZ345/VersBand?style=social&label=GitHub+Stars)](https://github.com/AaronZ345/VersBand) 
 - VersBand is a multi-task song generation framework for synthesizing high-quality, aligned songs with prompt-based control.
-- Our work is promoted by multiple media and forums, such as [![weixin](https://img.shields.io/badge/-WeChat@语音之家-000000?logo=wechat&logoColor=07C160)](), [![weixin](https://img.shields.io/badge/-WeChat@PaperWeekly-000000?logo=wechat&logoColor=07C160)](), and
+- Our work is promoted by multiple media and forums, such as [![weixin](https://img.shields.io/badge/-WeChat@语音之家-000000?logo=wechat&logoColor=07C160)](), [![weixin](https://img.shields.io/badge/-WeChat@PaperWeekly-000000?logo=wechat&logoColor=07C160)](https://mp.weixin.qq.com/s/fsbNdPyfEFi-_QHOCy85RQ), and
 [![zhihu](https://img.shields.io/badge/-知乎-000000?logo=zhihu&logoColor=0084FF)](https://zhuanlan.zhihu.com/p/1943351555119097448).
 </div>
 </div>
