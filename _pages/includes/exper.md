@@ -1,6 +1,6 @@
 
 # 💻 Industrial Experiences
-- *2025.08-Now* Research Scientist at [ByteDance](https://www.bytedance.com/en/).
+- *2025.08-Now*, Research Scientist at [ByteDance](https://www.bytedance.com/en/).
 
 # 🔍 Research Experiences
 - *2025.04 - 2025.06*, Visiting Scholar at [University of Rochester](https://www.rochester.edu/), working with [Prof. Zhiyao Duan](https://www.hajim.rochester.edu/ece/people/faculty/duan_zhiyao).
