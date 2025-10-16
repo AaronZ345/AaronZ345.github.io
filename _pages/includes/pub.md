@@ -125,7 +125,7 @@
 - `ACL 2024` [Robust Singing Voice Transcription Serves Synthesis](https://arxiv.org/abs/2405.09940), Ruiqi Li, **Yu Zhang**, Yongqi Wang, et al. \| [![Demo](https://img.shields.io/badge/🚀%20Demo%20Page-blue)](https://rosvot.github.io/) [![](https://img.shields.io/github/stars/RickyL-2000/ROSVOT?style=social&label=GitHub+Stars)](https://github.com/RickyL-2000/ROSVOT)
 
 ## 💬 Speech Synthesis
-- `ASRU 2025` [Conan: A Chunkwise Online Network for Zero-Shot Adaptive Voice Conversion](https://arxiv.org/abs/2507.14534), **Yu Zhang**, Baotong Tian, Zhiyao Duan. \| [![Demo](https://img.shields.io/badge/🚀%20Demo%20Page-blue)](https://aaronz345.github.io/ConanDemo/)
+- `ASRU 2025` [Conan: A Chunkwise Online Network for Zero-Shot Adaptive Voice Conversion](https://arxiv.org/abs/2507.14534), **Yu Zhang**, Baotong Tian, Zhiyao Duan. \| [![Demo](https://img.shields.io/badge/🚀%20Demo%20Page-blue)](https://aaronz345.github.io/ConanDemo/) [![](https://img.shields.io/github/stars/User-tian/Conan?style=social&label=Stars)](https://github.com/User-tian/Conan)
 - `Preprint` [MegaTTS 3: Sparse Alignment Enhanced Latent Diffusion Transformer for Zero-Shot Speech Synthesis](https://www.arxiv.org/abs/2502.18924), Ziyue Jiang, Yi Ren, Ruiqi Li, Shengpeng Ji, Zhenhui Ye, Chen Zhang, Bai Jionghao, Xiaoda Yang, Jialong Zuo, **Yu Zhang**, et al.
 
 ## 💡 Others
