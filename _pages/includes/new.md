@@ -10,11 +10,12 @@
 
 <div class="scrollable">
   <ul>
+    <li><strong>2025.10</strong>: 🎉 <a href="https://arxiv.org/abs/2508.10924">ASAudio</a> and <a href="">Synthetic Singers</a> are accepted by AACL 2025!</li>
     <li><strong>2025.08</strong>: 🎉 <a href="https://arxiv.org/abs/2510.10396">MRSAudio</a> is accepted by NeurIPS 2025!</li>
     <li><strong>2025.08</strong>: 🎉 <a href="https://arxiv.org/abs/2504.19062">VersBand</a> is accepted by EMNLP 2025!</li>
     <li><strong>2025.08</strong>: 🎉 <a href="https://arxiv.org/abs/2507.14534">Conan</a> is accepted by ASRU 2025!</li>
     <li><strong>2025.08</strong>: 💼 I join <a href="https://www.bytedance.com/en/">ByteDance</a> as a research scientist!</li>
-    <li><strong>2025.07</strong>: 🎉 <a href="https://arxiv.org/abs/2504.20630">ISDrama</a> and <a href="">MESA</a> are accepted by ACM-MM 2025!</li>
+    <li><strong>2025.07</strong>: 🎉 <a href="https://arxiv.org/abs/2504.20630">ISDrama</a> and <a href="https://dl.acm.org/doi/10.1145/3746027.3755571">MESA</a> are accepted by ACM-MM 2025!</li>
     <li><strong>2025.06</strong>: 🎓 I earn my PhD in Computer Science from <a href="https://www.zju.edu.cn/english/">Zhejiang University</a>!</li>
     <li><strong>2025.05</strong>: 🎉 <a href="https://arxiv.org/abs/2505.14910">TCSinger 2</a> and <a href="https://arxiv.org/abs/2507.06670">STARS</a> are accepted by ACL 2025!</li>
     <li><strong>2025.04</strong>: 🏫 I come to the <a href="https://www.rochester.edu/">University of Rochester</a> as a visiting scholar, working with <a href="https://www.hajim.rochester.edu/ece/people/faculty/duan_zhiyao">Prof. Zhiyao Duan</a>!</li>
