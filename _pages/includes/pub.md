@@ -23,9 +23,9 @@
 </div>
 </div>
 
-- `ACM-MM 2025` A Multimodal Evaluation Framework for Spatial Audio Playback Systems: From Localization to Listener Preference, Changhao Pan\*, Wenxiang Guo\*, **Yu Zhang\***, et al. \| [![Demo](https://img.shields.io/badge/🚀%20Demo%20Page-blue)](https://david-pigeon.github.io/mesaDemo)
+- `AACL 2025` [ASAudio: A Survey of Advanced Spatial Audio Research](https://arxiv.org/abs/2508.10924), Zhiyuan Zhu\*, **Yu Zhang\***, Wenxiang Guo\*, et al. \| [![](https://img.shields.io/github/stars/dieKarotte/ASAudio?style=social&label=GitHub+Stars)](https://github.com/dieKarotte/ASAudio)
+- `ACM-MM 2025` [A Multimodal Evaluation Framework for Spatial Audio Playback Systems: From Localization to Listener Preference](https://dl.acm.org/doi/10.1145/3746027.3755571), Changhao Pan\*, Wenxiang Guo\*, **Yu Zhang\***, et al. \| [![Demo](https://img.shields.io/badge/🚀%20Demo%20Page-blue)](https://david-pigeon.github.io/mesaDemo)
 - `NeurIPS 2025` [MRSAudio: A Large-Scale Multimodal Recorded Spatial Audio Dataset with Refined Annotations](https://arxiv.org/abs/2510.10396), Wenxiang Guo\*, Changhao Pan\*, Zhiyuan Zhu\*, Xintong Hu\*, **Yu Zhang\***, et al. \| [![Demo](https://img.shields.io/badge/🚀%20Demo%20Page-blue)](https://mrsaudio.github.io/) [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue?label=Dataset)](https://huggingface.co/datasets/verstar/MRSAudio) [![](https://img.shields.io/github/stars/MRSAudio/MRSAudio_Main?style=social&label=GitHub+Stars)](https://github.com/MRSAudio/MRSAudio_Main) 
-- `Preprint` [ASAudio: A Survey of Advanced Spatial Audio Research](https://arxiv.org/abs/2508.10924), Zhiyuan Zhu\*, **Yu Zhang\***, Wenxiang Guo\*, et al. \| [![](https://img.shields.io/github/stars/dieKarotte/ASAudio?style=social&label=GitHub+Stars)](https://github.com/dieKarotte/ASAudio)
 
 ## 🎼 Music Generation
 
@@ -120,7 +120,7 @@
 </div>
 
 - `ACL 2025` [STARS: A Unified Framework for Singing Transcription, Alignment, and Refined Style Annotation](https://arxiv.org/abs/2507.06670), Wenxiang Guo\*, **Yu Zhang\***, Changhao Pan\*, et al. \| [![Demo](https://img.shields.io/badge/🚀%20Demo%20Page-blue)](https://demo-stars.github.io/) [![](https://img.shields.io/github/stars/gwx314/STARS?style=social&label=Stars)](https://github.com/gwx314/STARS)
-- `Under Review` Synthetic Singers: A Review of Deep-Learning-based Singing Voice Synthesis Approaches, Changhao Pan\*, Dongyu Yao\*, **Yu Zhang\***, et al. \| [![](https://img.shields.io/github/stars/DaViD-Pigeon/SyntheticSingers?style=social&label=GitHub+Stars)](https://github.com/DaViD-Pigeon/SyntheticSingers)
+- `AACL 2025` Synthetic Singers: A Review of Deep-Learning-based Singing Voice Synthesis Approaches, Changhao Pan\*, Dongyu Yao\*, **Yu Zhang\***, et al. \| [![](https://img.shields.io/github/stars/DaViD-Pigeon/SyntheticSingers?style=social&label=GitHub+Stars)](https://github.com/DaViD-Pigeon/SyntheticSingers)
 - `AAAI 2025` [TechSinger: Technique Controllable Multilingual Singing Voice Synthesis via Flow Matching](https://arxiv.org/abs/2502.12572), Wenxiang Guo, **Yu Zhang**, Changhao Pan, et al. \| [![Demo](https://img.shields.io/badge/🚀%20Demo%20Page-blue)](https://tech-singer.github.io/) [![](https://img.shields.io/github/stars/gwx314/TechSinger?style=social&label=GitHub+Stars)](https://github.com/gwx314/TechSinger)
 - `ACL 2024` [Robust Singing Voice Transcription Serves Synthesis](https://arxiv.org/abs/2405.09940), Ruiqi Li, **Yu Zhang**, Yongqi Wang, et al. \| [![Demo](https://img.shields.io/badge/🚀%20Demo%20Page-blue)](https://rosvot.github.io/) [![](https://img.shields.io/github/stars/RickyL-2000/ROSVOT?style=social&label=GitHub+Stars)](https://github.com/RickyL-2000/ROSVOT)
 
