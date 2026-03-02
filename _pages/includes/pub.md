@@ -130,4 +130,4 @@
 
 ## 💡 Others
 - `IJCAI 2025` [Leveraging Pretrained Diffusion Models for Zero-Shot Part Assembly](https://arxiv.org/abs/2505.00426), Ruiyuan Zhang, Qi Wang, Jiaxiang Liu, **Yu Zhang**, et al.
-- `Report` [ALIVE: Animate Your World with Lifelike Audio-Video Generation](https://arxiv.org/pdf/2602.08682), Ying Guo, Qijun Gan, Yifu Zhang, Jinlai Liu, Yifei Hu, Pan Xie, Dongjun Qian, **Yu Zhang**, et al.
+- `Report` [ALIVE: Animate Your World with Lifelike Audio-Video Generation](https://arxiv.org/abs/2602.08682), Ying Guo, Qijun Gan, Yifu Zhang, Jinlai Liu, Yifei Hu, Pan Xie, Dongjun Qian, **Yu Zhang**, et al.
