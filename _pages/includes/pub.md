@@ -126,7 +126,9 @@
 
 ## 💬 Speech
 - `ASRU 2025` [Conan: A Chunkwise Online Network for Zero-Shot Adaptive Voice Conversion](https://arxiv.org/abs/2507.14534), **Yu Zhang**, Baotong Tian, Zhiyao Duan. \| [![Demo](https://img.shields.io/badge/🚀%20Demo%20Page-blue)](https://aaronz345.github.io/ConanDemo/) [![](https://img.shields.io/github/stars/User-tian/Conan?style=social&label=Stars)](https://github.com/User-tian/Conan)
+- `ACL 2026` [Rectifying the Emotional Flow: Aligning Priors and Dynamic Guidance for High-Arousal Text-to-Speech](), Fangming Feng, Dongjie Fu, Zequn Xie, **Yu Zhang** et al.
 - `Report` [MegaTTS 3: Sparse Alignment Enhanced Latent Diffusion Transformer for Zero-Shot Speech Synthesis](https://www.arxiv.org/abs/2502.18924), Ziyue Jiang, Yi Ren, Ruiqi Li, Shengpeng Ji, Zhenhui Ye, Chen Zhang, Bai Jionghao, Xiaoda Yang, Jialong Zuo, **Yu Zhang**, et al.
+- `ACL 2026` [Comprehensive Benchmarking of Long-Form Speech Generation in Diverse Scenarios](), Changhao Pan, Rui Yang, Han Wang, Zhuan Zhou, Xuming He, Wenxiang Guo, Ziyue Jiang, Ruiqi Li, **Yu Zhang** et al.
 
 ## 💡 Others
 - `IJCAI 2025` [Leveraging Pretrained Diffusion Models for Zero-Shot Part Assembly](https://arxiv.org/abs/2505.00426), Ruiyuan Zhang, Qi Wang, Jiaxiang Liu, **Yu Zhang**, et al.
