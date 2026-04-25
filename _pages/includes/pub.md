@@ -8,7 +8,7 @@
     <div class='paper-box-image'>
         <div>
             <div class="badge">ACM-MM 2025</div>
-            <img src='../../images/isdrama.png' alt="sym" width="100%"></div>
+            <img loading='lazy' src='../../images/isdrama.png' alt="sym" width="100%"></div>
         </div>
         <div class='paper-box-text' markdown="1">
 
@@ -33,7 +33,7 @@
     <div class='paper-box-image'>
         <div>
             <div class="badge">EMNLP 2025</div>
-            <img src='../../images/versband.png' alt="sym" width="100%"></div>
+            <img loading='lazy' src='../../images/versband.png' alt="sym" width="100%"></div>
         </div>
         <div class='paper-box-text' markdown="1">
 
@@ -54,7 +54,7 @@
     <div class='paper-box-image'>
         <div>
             <div class="badge">ACL 2025</div>
-            <img src='../../images/tcsinger2.png' alt="sym" width="100%"></div>
+            <img loading='lazy' src='../../images/tcsinger2.png' alt="sym" width="100%"></div>
         </div>
         <div class='paper-box-text' markdown="1">
 
@@ -72,7 +72,7 @@
     <div class='paper-box-image'>
         <div>
             <div class="badge">EMNLP 2024</div>
-            <img src='../../images/tcsinger.png' alt="sym" width="100%"></div>
+            <img loading='lazy' src='../../images/tcsinger.png' alt="sym" width="100%"></div>
         </div>
         <div class='paper-box-text' markdown="1">
 
@@ -88,7 +88,7 @@
     <div class='paper-box-image'>
         <div>
             <div class="badge">NeurIPS 2024 Spotlight</div>
-            <img src='../../images/gtsinger.png' alt="sym" width="100%"></div>
+            <img loading='lazy' src='../../images/gtsinger.png' alt="sym" width="100%"></div>
         </div>
         <div class='paper-box-text' markdown="1">
 
@@ -106,7 +106,7 @@
     <div class='paper-box-image'>
         <div>
             <div class="badge">AAAI 2024</div>
-            <img src='../../images/stylesinger.png' alt="sym" width="100%"></div>
+            <img loading='lazy' src='../../images/stylesinger.png' alt="sym" width="100%"></div>
         </div>
         <div class='paper-box-text' markdown="1">
 
