@@ -141,6 +141,13 @@ h1:before, .anchor:before {
         &:hover { color: #6db3f2; }
     }
 
+    .social-icons {
+        .fa,
+        .fa-github, .fa-github-alt, .fa-github-square {
+            color: #d4d4d4;
+        }
+    }
+
     .page__content {
         color: #d4d4d4;
         h1, h2, h3, h4, h5, h6, strong { color: #ffffff; }
