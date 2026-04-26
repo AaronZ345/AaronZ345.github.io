@@ -9,7 +9,6 @@
 title                    : "Yu Zhang (张彧)"
 description              : "Focusing on Multi-Modal Generative AI (Spatial Audio/ Music/ Singing/ Speech)."
 repository               : "AaronZ345/AaronZ345.github.io"
-google_scholar_stats_use_cdn : true
 
 # google analytics
 google_analytics_id      : 325490034 # get google_analytics_id from https://analytics.google.com/analytics/
@@ -66,7 +65,6 @@ include:
   - files
 exclude:
   - docs
-  - google_scholar_crawler
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
