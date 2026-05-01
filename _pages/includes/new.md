@@ -10,6 +10,7 @@
 
 <div class="scrollable">
   <ul>
+    <li><strong>2026.05</strong>: 🎉 <a href="">S3Audio</a> is accepted by ICML 2026!</li>
     <li><strong>2025.10</strong>: 🎉 <a href="https://arxiv.org/abs/2508.10924">ASAudio</a> is accepted by IJCNLP-AACL 2025!</li>
     <li><strong>2025.08</strong>: 🎉 <a href="https://arxiv.org/abs/2510.10396">MRSAudio</a> is accepted by NeurIPS 2025!</li>
     <li><strong>2025.08</strong>: 🎉 <a href="https://arxiv.org/abs/2504.19062">VersBand</a> is accepted by EMNLP 2025!</li>
