@@ -449,6 +449,12 @@ input {
   box-shadow: none;
 }
 
+.sidebar-avatar-media {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
 .sidebar-identity {
   margin-top: 20px;
   text-align: center;
@@ -866,6 +872,12 @@ input {
 
 .paper-figure {
   aspect-ratio: 16 / 9;
+}
+
+.paper-figure picture {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 .paper-figure img {

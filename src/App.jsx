@@ -211,15 +211,22 @@ function SidebarProfile() {
   return (
     <div className="sidebar-card">
       <div className="sidebar-avatar-frame">
-        <img
-          className="sidebar-avatar"
-          src="/images/android-chrome-192x192.png"
-          width="192"
-          height="192"
-          decoding="async"
-          fetchPriority="high"
-          alt={profile.name}
-        />
+        <picture className="sidebar-avatar-media">
+          <source
+            type="image/webp"
+            srcSet="/images/avatar-192.webp 192w, /images/avatar-384.webp 384w, /images/avatar-512.webp 512w"
+            sizes="156px"
+          />
+          <img
+            className="sidebar-avatar"
+            src="/images/android-chrome-192x192.png"
+            width="192"
+            height="192"
+            decoding="async"
+            fetchPriority="high"
+            alt={profile.name}
+          />
+        </picture>
       </div>
       <div className="sidebar-identity">
         <h1>{profile.name}</h1>
@@ -284,7 +291,10 @@ function FeaturedPaper({ paper, githubStars }) {
   return (
     <article className="featured-paper">
       <div className="paper-figure">
-        <img src={paper.image} alt={`${paper.title} paper figure`} loading="lazy" decoding="async" />
+        <picture>
+          <source srcSet={toWebpPath(paper.image)} type="image/webp" />
+          <img src={paper.image} alt={`${paper.title} paper figure`} loading="lazy" decoding="async" />
+        </picture>
       </div>
       <div className="featured-paper-copy">
         <div className="paper-venue-line">
@@ -298,6 +308,10 @@ function FeaturedPaper({ paper, githubStars }) {
       </div>
     </article>
   );
+}
+
+function toWebpPath(src) {
+  return src.replace(/\.(png|jpe?g)$/i, ".webp");
 }
 
 function CompactPaper({ paper, githubStars }) {
