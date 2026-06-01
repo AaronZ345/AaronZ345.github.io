@@ -87,6 +87,110 @@
   --avatar-shadow: rgba(0, 0, 0, 0.34);
 }
 
+.fa,
+.fa-solid,
+.fa-brands,
+.fas,
+.fab {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: var(--fa-family, "Font Awesome 7 Free");
+  font-style: normal;
+  font-variant: normal;
+  font-weight: var(--fa-style, 900);
+  line-height: 1;
+  text-align: center;
+  text-rendering: auto;
+  width: var(--fa-width, 1.25em);
+}
+
+.fa-solid,
+.fas {
+  --fa-family: var(--fa-family-classic, "Font Awesome 7 Free");
+  --fa-style: 900;
+}
+
+.fa-brands,
+.fab {
+  --fa-family: var(--fa-family-brands, "Font Awesome 7 Brands");
+  --fa-style: 400;
+}
+
+.fa-arrow-up-right-from-square {
+  --fa: "\f08e";
+}
+
+.fa-bars {
+  --fa: "\f0c9";
+}
+
+.fa-chevron-down {
+  --fa: "\f078";
+}
+
+.fa-chevron-up {
+  --fa: "\f077";
+}
+
+.fa-code {
+  --fa: "\f121";
+}
+
+.fa-database {
+  --fa: "\f1c0";
+}
+
+.fa-envelope {
+  --fa: "\f0e0";
+}
+
+.fa-file-lines {
+  --fa: "\f15c";
+}
+
+.fa-location-dot {
+  --fa: "\f3c5";
+}
+
+.fa-moon {
+  --fa: "\f186";
+}
+
+.fa-play {
+  --fa: "\f04b";
+}
+
+.fa-star {
+  --fa: "\f005";
+}
+
+.fa-sun {
+  --fa: "\f185";
+}
+
+.fa-xmark {
+  --fa: "\f00d";
+}
+
+.fa::before,
+.fa-solid::before,
+.fa-brands::before,
+.fas::before,
+.fab::before {
+  content: var(--fa);
+}
+
+@supports (content: "" / "") {
+  .fa::before,
+  .fa-solid::before,
+  .fa-brands::before,
+  .fas::before,
+  .fab::before {
+    content: var(--fa) / "";
+  }
+}
+
 * {
   box-sizing: border-box;
 }
