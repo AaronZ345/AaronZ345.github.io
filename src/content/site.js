@@ -19,5 +19,3 @@ export const navItems = [
 ];
 
 export const publicationGroups = ["Swan Series", "Spatial Audio", "Music", "Singing Voice", "Speech", "Others"];
-
-export const clustrMapsScript = "https://clustrmaps.com/globe.js?d=1S35OY4EW-icFHp1QQQkUQj6qQja0TJHaHBF_3opuyk";

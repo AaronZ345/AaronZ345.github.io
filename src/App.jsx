@@ -1,10 +1,9 @@
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Icon } from "@iconify/react";
 import {
   awards,
   education,
   experience,
-  clustrMapsScript,
   navItems,
   news,
   profile,
@@ -212,7 +211,15 @@ function SidebarProfile() {
   return (
     <div className="sidebar-card">
       <div className="sidebar-avatar-frame">
-        <img className="sidebar-avatar" src="/images/android-chrome-512x512.png" alt={profile.name} />
+        <img
+          className="sidebar-avatar"
+          src="/images/android-chrome-192x192.png"
+          width="192"
+          height="192"
+          decoding="async"
+          fetchPriority="high"
+          alt={profile.name}
+        />
       </div>
       <div className="sidebar-identity">
         <h1>{profile.name}</h1>
@@ -268,63 +275,6 @@ function SidebarProfile() {
             ))}
           </div>
         </div>
-
-        <VisitorGlobe />
-      </div>
-    </div>
-  );
-}
-
-function VisitorGlobe() {
-  const globeRef = useRef(null);
-  const [showFallback, setShowFallback] = useState(true);
-
-  useEffect(() => {
-    const container = globeRef.current;
-    if (!container) return undefined;
-
-    container.innerHTML = "";
-    setShowFallback(true);
-    if (["localhost", "127.0.0.1", "::1"].includes(window.location.hostname)) {
-      return undefined;
-    }
-
-    const hasRenderedWidget = () => Array.from(container.children).some((child) => child.tagName !== "SCRIPT");
-    const updateFallback = () => setShowFallback(!hasRenderedWidget());
-    const observer = new MutationObserver(updateFallback);
-    observer.observe(container, { childList: true, subtree: true });
-
-    const script = document.createElement("script");
-    script.type = "text/javascript";
-    script.id = "clstr_globe";
-    script.src = clustrMapsScript;
-    script.async = true;
-    script.onload = () => window.setTimeout(updateFallback, 400);
-    script.onerror = () => setShowFallback(true);
-    container.appendChild(script);
-
-    const fallbackTimer = window.setTimeout(updateFallback, 2600);
-
-    return () => {
-      observer.disconnect();
-      window.clearTimeout(fallbackTimer);
-      container.innerHTML = "";
-    };
-  }, []);
-
-  return (
-    <div className="sidebar-block visitor-block">
-      <h2>Visitors</h2>
-      <div className="visitor-globe-shell">
-        <div className={`visitor-fallback${showFallback ? "" : " is-hidden"}`} aria-hidden="true">
-          <div className="visitor-fallback-globe">
-            <i className="fa-solid fa-earth-asia" aria-hidden="true" />
-            <span className="visitor-dot dot-one" />
-            <span className="visitor-dot dot-two" />
-            <span className="visitor-dot dot-three" />
-          </div>
-        </div>
-        <div id="clustrmaps-container" className="visitor-globe" ref={globeRef} aria-label="Visitor globe" />
       </div>
     </div>
   );
@@ -334,7 +284,7 @@ function FeaturedPaper({ paper, githubStars }) {
   return (
     <article className="featured-paper">
       <div className="paper-figure">
-        <img src={paper.image} alt={`${paper.title} paper figure`} loading="lazy" />
+        <img src={paper.image} alt={`${paper.title} paper figure`} loading="lazy" decoding="async" />
       </div>
       <div className="featured-paper-copy">
         <div className="paper-venue-line">
@@ -425,23 +375,14 @@ function ActionLinks({ links, githubStars }) {
   );
 }
 
-function GithubStars({ repo, stars }) {
-  if (typeof stars === "number") {
-    return (
-      <span className="star-count" title={`${stars.toLocaleString()} GitHub stars`}>
-        <i className="fa-solid fa-star" aria-hidden="true" />
-        {formatStars(stars)}
-      </span>
-    );
-  }
+function GithubStars({ stars }) {
+  if (typeof stars !== "number") return null;
 
   return (
-    <img
-      className="github-stars-badge"
-      src={`https://img.shields.io/github/stars/${repo}?style=social`}
-      alt={`${repo} GitHub stars`}
-      loading="lazy"
-    />
+    <span className="star-count" title={`${stars.toLocaleString()} GitHub stars`}>
+      <i className="fa-solid fa-star" aria-hidden="true" />
+      {formatStars(stars)}
+    </span>
   );
 }
 
@@ -464,7 +405,7 @@ function useGithubStars(papers) {
     let cancelled = false;
     const cacheTtl = 1000 * 60 * 60 * 12;
 
-    async function loadStars() {
+    const loadStars = async () => {
       const entries = await Promise.all(
         repos.map(async (repo) => {
           const cacheKey = `github-stars:${repo}`;
@@ -478,9 +419,12 @@ function useGithubStars(papers) {
             // Ignore cache failures; the badge is optional.
           }
 
+          const controller = new AbortController();
+          const timeout = window.setTimeout(() => controller.abort(), 3500);
           try {
             const response = await fetch(`https://api.github.com/repos/${repo}`, {
-              headers: { Accept: "application/vnd.github+json" }
+              headers: { Accept: "application/vnd.github+json" },
+              signal: controller.signal
             });
             if (!response.ok) return null;
             const data = await response.json();
@@ -494,6 +438,8 @@ function useGithubStars(papers) {
             return [repo, count];
           } catch {
             return null;
+          } finally {
+            window.clearTimeout(timeout);
           }
         })
       );
@@ -501,12 +447,13 @@ function useGithubStars(papers) {
       if (!cancelled) {
         setStars(Object.fromEntries(entries.filter(Boolean)));
       }
-    }
+    };
 
-    loadStars();
+    const cleanupSchedule = runAfterInitialLoad(() => runWhenIdle(loadStars, 1200));
 
     return () => {
       cancelled = true;
+      cleanupSchedule();
     };
   }, [repos]);
 
@@ -586,15 +533,15 @@ function ServiceList({ items }) {
             <TitleIcon icon={serviceIconMap[group.category] ?? fallbackTitleIcon} compact />
             <span>{group.category}</span>
           </h3>
-          <div className="service-grid">
+          <div className="service-chip-grid">
             {group.items.map((item) => {
               const { title, year } = splitServiceYears(item);
 
               return (
-                <div className="service-row" key={item}>
+                <span className="service-chip" key={item}>
                   <span>{title}</span>
                   {year ? <time>{year}</time> : null}
-                </div>
+                </span>
               );
             })}
           </div>
@@ -621,6 +568,35 @@ function getInitialTheme() {
   if (storedTheme) return storedTheme;
   if (typeof window === "undefined") return "light";
   return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+}
+
+function runAfterInitialLoad(callback) {
+  let timeoutId = 0;
+
+  const run = () => {
+    timeoutId = window.setTimeout(callback, 0);
+  };
+
+  if (document.readyState === "complete") {
+    run();
+    return () => window.clearTimeout(timeoutId);
+  }
+
+  window.addEventListener("load", run, { once: true });
+  return () => {
+    window.removeEventListener("load", run);
+    window.clearTimeout(timeoutId);
+  };
+}
+
+function runWhenIdle(callback, timeout = 1000) {
+  if ("requestIdleCallback" in window) {
+    const idleId = window.requestIdleCallback(callback, { timeout });
+    return () => window.cancelIdleCallback(idleId);
+  }
+
+  const timeoutId = window.setTimeout(callback, timeout);
+  return () => window.clearTimeout(timeoutId);
 }
 
 function getStoredTheme() {

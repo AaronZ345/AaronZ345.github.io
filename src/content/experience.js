@@ -4,6 +4,7 @@ export const experience = [
     title: "Research Scientist",
     place: "ByteDance",
     href: "https://www.bytedance.com/en/",
+    detail: "Worked in SwanAIGC team.",
     type: "Industry"
   },
   {
