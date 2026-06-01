@@ -45,6 +45,8 @@
   --avatar-shadow: rgba(39, 49, 61, 0.1);
   --radius: 8px;
   --section: min(1260px, calc(100vw - 48px));
+  --fa-family-classic: "Font Awesome 7 Free";
+  --fa-family-brands: "Font Awesome 7 Brands";
 }
 
 :root[data-theme="dark"] {
@@ -85,6 +87,30 @@
   --shadow: 0 18px 40px rgba(0, 0, 0, 0.24);
   --subtle-shadow: 0 8px 22px rgba(0, 0, 0, 0.18);
   --avatar-shadow: rgba(0, 0, 0, 0.34);
+}
+
+@font-face {
+  font-family: "Font Awesome 7 Free";
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url("/fonts/fa-solid-900.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Font Awesome 7 Brands";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("/fonts/fa-brands-400.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Academicons";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("/fonts/academicons.woff") format("woff");
 }
 
 .fa,
@@ -173,6 +199,26 @@
   --fa: "\f00d";
 }
 
+.fa-github {
+  --fa: "\f09b";
+}
+
+.fa-hugging-face {
+  --fa: "\e869";
+}
+
+.fa-linkedin-in {
+  --fa: "\f0e1";
+}
+
+.fa-weixin {
+  --fa: "\f1d7";
+}
+
+.fa-zhihu {
+  --fa: "\f63f";
+}
+
 .fa::before,
 .fa-solid::before,
 .fa-brands::before,
@@ -189,6 +235,30 @@
   .fab::before {
     content: var(--fa) / "";
   }
+}
+
+.ai {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: "Academicons";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 1;
+  text-rendering: auto;
+}
+
+.ai-google-scholar::before {
+  content: "\e9d4";
+}
+
+.ai-dblp::before {
+  content: "\e94f";
+}
+
+.ai-orcid::before {
+  content: "\e9d9";
 }
 
 * {

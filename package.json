@@ -9,10 +9,8 @@
     "preview": "vite preview --host 127.0.0.1"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^7.2.0",
     "@iconify-icons/twemoji": "^1.2.8",
     "@iconify/react": "^6.0.2",
-    "academicons": "^1.9.5",
     "react": "^19.2.1",
     "react-dom": "^19.2.1"
   },
