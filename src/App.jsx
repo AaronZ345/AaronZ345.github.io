@@ -512,13 +512,27 @@ function Timeline({ items }) {
             ) : (
               <span className="timeline-place">{item.place}</span>
             )}
-            {item.detail ? <p>{item.detail}</p> : null}
+            {item.detail ? <p>{renderLinkedText(item.detail)}</p> : null}
           </div>
           <time>{item.period}</time>
         </div>
       ))}
     </div>
   );
+}
+
+function renderLinkedText(content) {
+  if (!Array.isArray(content)) return content;
+
+  return content.map((part, index) => {
+    if (typeof part === "string") return part;
+
+    return (
+      <a key={`${part.href}-${index}`} href={part.href} target="_blank" rel="noreferrer">
+        {part.text}
+      </a>
+    );
+  });
 }
 
 function HonorsList({ items }) {

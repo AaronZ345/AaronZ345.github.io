@@ -1,7 +1,7 @@
 export const publications = [
   {
     title: "SwanVoice: Expressive Long-Form Zero-Shot Speech Synthesis for Both Monologue and Dialogue",
-    venue: "Report",
+    venue: "Technical Report",
     year: "2026",
     group: "Swan Series",
     authors: "Ruiqi Li*, Yu Zhang*, Changhao Pan*, et al.",
@@ -71,7 +71,7 @@ export const publications = [
     authors: "Changhao Pan*, Wenxiang Guo*, Yu Zhang*, et al.",
     links: [
       { label: "Paper", href: "https://dl.acm.org/doi/10.1145/3746027.3755571" },
-      { label: "Demo", href: "https://david-pigeon.github.io/mesaDemo" }
+      { label: "Demo", href: "https://david-pigeon.github.io/mesa-demo/" }
     ]
   },
   {
@@ -106,6 +106,26 @@ export const publications = [
     featured: true
   },
   {
+    title: "GTSinger: A Global Multi-Technique Singing Corpus with Realistic Music Scores for All Singing Tasks",
+    venue: "NeurIPS 2024 Spotlight",
+    year: "2024",
+    group: "Singing Voice",
+    image: "/images/gtsinger.png",
+    authors: "Yu Zhang, Changhao Pan, Wenxiang Guo, et al.",
+    summary:
+      "A global, multi-technique, free-to-use singing corpus with realistic music scores for singing tasks.",
+    links: [
+      { label: "Paper", href: "https://arxiv.org/abs/2409.13832" },
+      { label: "Demo", href: "https://aaronz345.github.io/GTSingerDemo/" },
+      { label: "Dataset", href: "https://huggingface.co/datasets/AaronZ345/GTSinger" },
+      { label: "Code", href: "https://github.com/AaronZ345/GTSinger" },
+      { label: "WeChat@机器之心", href: "https://mp.weixin.qq.com/s/B1Iqr-24l57f0MslzYEslA" },
+      { label: "WeChat@PaperWeekly", href: "https://mp.weixin.qq.com/s/6RLdUzJM5PItklKUTTNz2w" },
+      { label: "Zhihu", href: "https://zhuanlan.zhihu.com/p/993933492" }
+    ],
+    featured: true
+  },
+  {
     title: "TCSinger 2: Customizable Multilingual Zero-shot Singing Voice Synthesis",
     venue: "ACL 2025",
     year: "2025",
@@ -136,27 +156,8 @@ export const publications = [
     links: [
       { label: "Paper", href: "https://arxiv.org/abs/2409.15977" },
       { label: "Demo", href: "https://aaronz345.github.io/TCSingerDemo/" },
-      { label: "Code", href: "https://github.com/AaronZ345/TCSinger" }
-    ],
-    featured: true
-  },
-  {
-    title: "GTSinger: A Global Multi-Technique Singing Corpus with Realistic Music Scores for All Singing Tasks",
-    venue: "NeurIPS 2024 Spotlight",
-    year: "2024",
-    group: "Singing Voice",
-    image: "/images/gtsinger.png",
-    authors: "Yu Zhang, Changhao Pan, Wenxiang Guo, et al.",
-    summary:
-      "A global, multi-technique, free-to-use singing corpus with realistic music scores for singing tasks.",
-    links: [
-      { label: "Paper", href: "https://arxiv.org/abs/2409.13832" },
-      { label: "Demo", href: "https://aaronz345.github.io/GTSingerDemo/" },
-      { label: "Dataset", href: "https://huggingface.co/datasets/AaronZ345/GTSinger" },
-      { label: "Code", href: "https://github.com/AaronZ345/GTSinger" },
-      { label: "WeChat@机器之心", href: "https://mp.weixin.qq.com/s/B1Iqr-24l57f0MslzYEslA" },
-      { label: "WeChat@PaperWeekly", href: "https://mp.weixin.qq.com/s/6RLdUzJM5PItklKUTTNz2w" },
-      { label: "Zhihu", href: "https://zhuanlan.zhihu.com/p/993933492" }
+      { label: "Code", href: "https://github.com/AaronZ345/TCSinger" },
+      { label: "Zhihu", href: "https://zhuanlan.zhihu.com/p/777601485" }
     ],
     featured: true
   },
@@ -172,7 +173,8 @@ export const publications = [
     links: [
       { label: "Paper", href: "https://arxiv.org/abs/2312.10741" },
       { label: "Demo", href: "https://aaronz345.github.io/StyleSingerDemo/" },
-      { label: "Code", href: "https://github.com/AaronZ345/StyleSinger" }
+      { label: "Code", href: "https://github.com/AaronZ345/StyleSinger" },
+      { label: "Zhihu", href: "https://zhuanlan.zhihu.com/p/775792127" }
     ],
     featured: true
   },
@@ -196,7 +198,7 @@ export const publications = [
     authors: "Wenxiang Guo, Yu Zhang, Changhao Pan, et al.",
     links: [
       { label: "Paper", href: "https://arxiv.org/abs/2502.12572" },
-      { label: "Demo", href: "https://tech-singer.github.io/" },
+      { label: "Demo", href: "https://gwx314.github.io/tech-singer/" },
       { label: "Code", href: "https://github.com/gwx314/TechSinger" }
     ]
   },
@@ -245,11 +247,15 @@ export const publications = [
   },
   {
     title: "MegaTTS 3: Sparse Alignment Enhanced Latent Diffusion Transformer for Zero-Shot Speech Synthesis",
-    venue: "Report",
+    venue: "Technical Report",
     year: "2025",
     group: "Speech",
     authors: "Ziyue Jiang, Yi Ren, Ruiqi Li, Shengpeng Ji, Zhenhui Ye, Chen Zhang, Bai Jionghao, Xiaoda Yang, Jialong Zuo, Yu Zhang, et al.",
-    links: [{ label: "Paper", href: "https://www.arxiv.org/abs/2502.18924" }]
+    links: [
+      { label: "Paper", href: "https://www.arxiv.org/abs/2502.18924" },
+      { label: "Demo", href: "https://sditdemo.github.io/sditdemo/" },
+      { label: "Code", href: "https://github.com/bytedance/MegaTTS3" }
+    ]
   },
   {
     title: "Leveraging Pretrained Diffusion Models for Zero-Shot Part Assembly",
@@ -257,14 +263,20 @@ export const publications = [
     year: "2025",
     group: "Others",
     authors: "Ruiyuan Zhang, Qi Wang, Jiaxiang Liu, Yu Zhang, et al.",
-    links: [{ label: "Paper", href: "https://arxiv.org/abs/2505.00426" }]
+    links: [
+      { label: "Paper", href: "https://arxiv.org/abs/2505.00426" },
+      { label: "Code", href: "https://github.com/Ruiyuan-Zhang/Zero-Shot-Assembly" }
+    ]
   },
   {
     title: "ALIVE: Animate Your World with Lifelike Audio-Video Generation",
-    venue: "Report",
+    venue: "Technical Report",
     year: "2026",
     group: "Others",
     authors: "Ying Guo, Qijun Gan, Yifu Zhang, Jinlai Liu, Yifei Hu, Pan Xie, Dongjun Qian, Yu Zhang, et al.",
-    links: [{ label: "Paper", href: "https://arxiv.org/abs/2602.08682" }]
+    links: [
+      { label: "Paper", href: "https://arxiv.org/abs/2602.08682" },
+      { label: "Demo", href: "https://foundationvision.github.io/Alive/" }
+    ]
   }
 ];

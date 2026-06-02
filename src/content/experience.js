@@ -4,7 +4,11 @@ export const experience = [
     title: "Research Scientist",
     place: "ByteDance",
     href: "https://www.bytedance.com/en/",
-    detail: "Worked in SwanAIGC team.",
+    detail: [
+      "Working on the ",
+      { text: "SwanAIGC team", href: "https://swanaigc.github.io/#home" },
+      "."
+    ],
     type: "Industry"
   },
   {
@@ -12,15 +16,23 @@ export const experience = [
     title: "Visiting Scholar",
     place: "University of Rochester",
     href: "https://www.rochester.edu/",
-    detail: "Worked with Prof. Zhiyao Duan.",
+    detail: [
+      "Worked with Prof. ",
+      { text: "Zhiyao Duan", href: "https://hajim.rochester.edu/ece/people/faculty/duan_zhiyao/index.html" },
+      "."
+    ],
     type: "Research"
   },
   {
     period: "2020.06 - 2020.09",
     title: "Research Intern",
     place: "Alibaba-Zhejiang University Joint Institute of Frontier Technologies",
-    href: "https://azft.alibaba.com/",
-    detail: "Worked with Prof. Jianke Zhu.",
+    href: "http://arc.zju.edu.cn/62519/list.htm",
+    detail: [
+      "Worked with Prof. ",
+      { text: "Jianke Zhu", href: "https://person.zju.edu.cn/en/jkzhu" },
+      "."
+    ],
     type: "Research"
   },
   {
@@ -28,7 +40,11 @@ export const experience = [
     title: "Visiting Scholar",
     place: "University of Massachusetts Amherst",
     href: "https://www.umass.edu/",
-    detail: "Worked with Prof. Przemyslaw Grabowicz.",
+    detail: [
+      "Worked with Prof. ",
+      { text: "Przemyslaw Grabowicz", href: "https://www.cics.umass.edu/about/directory/przemyslaw-grabowicz" },
+      "."
+    ],
     type: "Research"
   },
   {
@@ -36,7 +52,11 @@ export const experience = [
     title: "Research Assistant",
     place: "Institute of Cyber-Systems and Control, Zhejiang University",
     href: "http://www.cse.zju.edu.cn/cseenglish/main.htm",
-    detail: "Worked with Prof. Chunlin Zhou.",
+    detail: [
+      "Worked with Prof. ",
+      { text: "Chunlin Zhou", href: "https://person.zju.edu.cn/en/0011056/841887.html" },
+      "."
+    ],
     type: "Research"
   },
   {
@@ -44,7 +64,11 @@ export const experience = [
     title: "Research Assistant",
     place: "Institute of Computer System Architecture, Zhejiang University",
     href: "http://www.en.cs.zju.edu.cn/jsjxtjgywlaqyjs/list.htm",
-    detail: "Worked with Prof. Chunming Wu.",
+    detail: [
+      "Worked with Prof. ",
+      { text: "Chunming Wu", href: "https://person.zju.edu.cn/en/0095168" },
+      "."
+    ],
     type: "Research"
   }
 ];
