@@ -38,11 +38,9 @@ function App() {
   }, [theme]);
 
   useEffect(() => {
-    if (getStoredTheme()) return undefined;
-
     const media = window.matchMedia("(prefers-color-scheme: dark)");
     const handleChange = (event) => {
-      if (!getStoredTheme()) setTheme(event.matches ? "dark" : "light");
+      setTheme(event.matches ? "dark" : "light");
     };
 
     media.addEventListener("change", handleChange);
@@ -50,15 +48,7 @@ function App() {
   }, []);
 
   const toggleTheme = () => {
-    setTheme((currentTheme) => {
-      const nextTheme = currentTheme === "dark" ? "light" : "dark";
-      try {
-        window.localStorage.setItem("theme", nextTheme);
-      } catch {
-        // Ignore storage failures; the in-memory theme still updates.
-      }
-      return nextTheme;
-    });
+    setTheme((currentTheme) => currentTheme === "dark" ? "light" : "dark");
   };
 
   return (
@@ -592,8 +582,6 @@ function splitServiceYears(value) {
 }
 
 function getInitialTheme() {
-  const storedTheme = getStoredTheme();
-  if (storedTheme) return storedTheme;
   if (typeof window === "undefined") return "light";
   return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
 }
@@ -625,16 +613,6 @@ function runWhenIdle(callback, timeout = 1000) {
 
   const timeoutId = window.setTimeout(callback, timeout);
   return () => window.clearTimeout(timeoutId);
-}
-
-function getStoredTheme() {
-  if (typeof window === "undefined") return "";
-  try {
-    const value = window.localStorage.getItem("theme");
-    return value === "dark" || value === "light" ? value : "";
-  } catch {
-    return "";
-  }
 }
 
 function highlightName(authors) {
