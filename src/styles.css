@@ -1207,10 +1207,28 @@ a.timeline-place:hover {
   width: var(--section);
   margin: 0 auto;
   display: flex;
+  align-items: center;
   justify-content: space-between;
   gap: 20px;
   color: var(--muted);
   font-size: 0.84rem;
+}
+
+.footer-links {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 14px;
+}
+
+.footer-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.footer-links i {
+  color: var(--icon-text);
 }
 
 @media (max-width: 960px) {
@@ -1374,5 +1392,9 @@ a.timeline-place:hover {
 
   .footer-inner {
     display: grid;
+  }
+
+  .footer-links {
+    justify-content: flex-start;
   }
 }

@@ -5,7 +5,8 @@ export const siteMeta = {
   socialDescription:
     "Research scientist working on multi-modal generative audio, including speech, singing voice, music, and spatial audio.",
   url: "https://aaronz345.github.io/",
-  image: "https://aaronz345.github.io/images/android-chrome-512x512.png"
+  image: "https://aaronz345.github.io/images/android-chrome-512x512.png",
+  repositoryUrl: "https://github.com/AaronZ345/Athena-personal-academic-page"
 };
 
 export const navItems = [

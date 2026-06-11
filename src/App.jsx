@@ -160,7 +160,15 @@ function App() {
       <footer className="site-footer">
         <div className="section footer-inner">
           <span>{profile.name} ({profile.nativeName})</span>
-          <a href={`mailto:${profile.email}`}>{profile.email}</a>
+          <div className="footer-links">
+            {siteMeta.repositoryUrl ? (
+              <a href={siteMeta.repositoryUrl} target="_blank" rel="noreferrer">
+                <i className="fa-brands fa-github" aria-hidden="true" />
+                <span>Built with Athena</span>
+              </a>
+            ) : null}
+            <a href={`mailto:${profile.email}`}>{profile.email}</a>
+          </div>
         </div>
       </footer>
     </>
