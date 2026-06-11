@@ -1,5 +1,6 @@
 export { profile } from "./profile.js";
 export { news } from "./news.js";
+export { projects } from "./projects.js";
 export { publications } from "./publications.js";
 export { education } from "./education.js";
 export { experience } from "./experience.js";

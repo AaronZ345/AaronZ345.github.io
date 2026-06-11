@@ -36,6 +36,7 @@ export const venueIcon = bookmarkTabsIcon;
 export const sectionIconMap = {
   "About Me": identificationCardIcon,
   News: newspaperIcon,
+  Projects: rocketIcon,
   Publications: booksIcon,
   Education: graduationCapIcon,
   Experience: briefcaseIcon,

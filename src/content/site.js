@@ -16,7 +16,8 @@ export const navItems = [
   { label: "Education", href: "#education" },
   { label: "Experience", href: "#experience" },
   { label: "Honors", href: "#honors" },
-  { label: "Service", href: "#service" }
+  { label: "Service", href: "#service" },
+  { label: "Projects", href: "#projects" }
 ];
 
 export const publicationGroups = ["Swan Series", "Spatial Audio", "Music", "Singing Voice", "Speech", "Others"];

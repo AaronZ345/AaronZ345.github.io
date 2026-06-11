@@ -7,6 +7,7 @@ import {
   navItems,
   news,
   profile,
+  projects,
   publicationGroups,
   publications,
   services,
@@ -154,6 +155,11 @@ function App() {
             <SectionTitle title="Academic Service" />
             <ServiceList items={services} />
           </section>
+
+          <section className="section" id="projects">
+            <SectionTitle title="Projects" />
+            <ProjectList projects={projects} githubStars={githubStars} />
+          </section>
         </main>
       </div>
 
@@ -172,6 +178,30 @@ function App() {
         </div>
       </footer>
     </>
+  );
+}
+
+function ProjectList({ projects, githubStars }) {
+  return (
+    <div className="project-grid">
+      {projects.map((project) => (
+        <article className="project-card" key={project.name}>
+          <div className="project-card-header">
+            <div>
+              <h3>{project.name}</h3>
+              <span>{project.role}</span>
+            </div>
+          </div>
+          <p>{project.description}</p>
+          <div className="project-tags" aria-label={`${project.name} tags`}>
+            {project.tags.map((tag) => (
+              <span key={tag}>{tag}</span>
+            ))}
+          </div>
+          <ActionLinks links={project.links} githubStars={githubStars} />
+        </article>
+      ))}
+    </div>
   );
 }
 
@@ -373,7 +403,13 @@ function ActionLinks({ links, githubStars }) {
     <div className="action-links">
       {links.map((link) => {
         const githubRepo = getGithubRepo(link.href);
-        const stars = githubRepo ? githubStars[githubRepo] : undefined;
+        const liveStars = githubRepo ? githubStars[githubRepo] : undefined;
+        const fallbackStars = typeof link.stars === "number"
+          ? link.stars
+          : githubRepo
+            ? githubStarFallbacks[githubRepo]
+            : undefined;
+        const stars = liveStars ?? fallbackStars;
 
         return (
           <a key={`${link.label}-${link.href}`} href={link.href} target="_blank" rel="noreferrer">
@@ -398,13 +434,33 @@ function GithubStars({ stars }) {
   );
 }
 
+const githubStarFallbacks = {
+  "AaronZ345/ISDrama": 237,
+  "dieKarotte/ASAudio": 54,
+  "MRSAudio/MRSAudio_Main": 40,
+  "AaronZ345/VersBand": 225,
+  "AaronZ345/GTSinger": 371,
+  "AaronZ345/TCSinger2": 180,
+  "AaronZ345/TCSinger": 381,
+  "AaronZ345/StyleSinger": 419,
+  "gwx314/STARS": 83,
+  "gwx314/TechSinger": 100,
+  "RickyL-2000/ROSVOT": 121,
+  "DaViD-Pigeon/SyntheticSingers": 8,
+  "User-tian/Conan": 27,
+  "bytedance/MegaTTS3": 6084,
+  "Ruiyuan-Zhang/Zero-Shot-Assembly": 4
+};
+
 function useGithubStars(papers) {
   const repos = useMemo(() => {
     const found = new Set();
     papers.forEach((paper) => {
       paper.links?.forEach((link) => {
         const repo = getGithubRepo(link.href);
-        if (repo) found.add(repo);
+        if (repo && typeof link.stars !== "number" && typeof githubStarFallbacks[repo] !== "number") {
+          found.add(repo);
+        }
       });
     });
     return Array.from(found);
