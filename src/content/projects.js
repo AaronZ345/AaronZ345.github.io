@@ -6,7 +6,7 @@ export const projects = [
       "An agent bridge for coding assistants and chat platforms, connecting Claude Code, Codex, Gemini, and provider workflows across rich messaging surfaces.",
     tags: ["AI Agents", "Claude Code", "Codex", "Messaging"],
     links: [
-      { label: "Code", href: "https://github.com/chenhg5/cc-connect", stars: 12065 },
+      { label: "Code", href: "https://github.com/chenhg5/cc-connect", stars: 12383 },
       { label: "Release", href: "https://github.com/chenhg5/cc-connect/releases" }
     ]
   },
@@ -28,7 +28,7 @@ export const projects = [
       "A React and Vite framework for modern academic homepages, covering profile, publications, projects, service, responsive themes, and GitHub Pages deployment.",
     tags: ["Academic Page", "React", "Vite", "GitHub Pages"],
     links: [
-      { label: "Code", href: "https://github.com/AaronZ345/Athena-personal-academic-page", stars: 1 },
+      { label: "Code", href: "https://github.com/AaronZ345/Athena-personal-academic-page", stars: 27 },
       { label: "Homepage", href: "https://aaronz345.github.io/Athena-personal-academic-page/" }
     ]
   }
