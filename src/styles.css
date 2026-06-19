@@ -167,6 +167,10 @@
   --fa: "\f121";
 }
 
+.fa-code-fork {
+  --fa: "\e13b";
+}
+
 .fa-database {
   --fa: "\f1c0";
 }
@@ -1083,10 +1087,10 @@ input {
   text-align: center;
 }
 
-.star-count {
+.repo-stats {
   display: inline-flex;
   align-items: center;
-  gap: 3px;
+  gap: 6px;
   margin-left: 2px;
   padding-left: 7px;
   border-left: 1px solid var(--border);
@@ -1095,7 +1099,13 @@ input {
   font-weight: 500;
 }
 
-.star-count i {
+.repo-stat {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.repo-stat i {
   color: var(--subtle);
   font-size: 0.74rem;
 }
@@ -1174,7 +1184,7 @@ input {
   color: var(--blue);
 }
 
-.compact-paper-row .star-count {
+.compact-paper-row .repo-stats {
   margin-left: 0;
   padding-left: 3px;
   border-left: 0;

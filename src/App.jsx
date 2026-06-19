@@ -24,13 +24,13 @@ import {
   venueIcon
 } from "./icons.js";
 
-const githubStarSources = [publications, projects];
-const githubStarsCacheTtl = 1000 * 60 * 5;
+const githubStatsSources = [publications, projects];
+const githubStatsCacheTtl = 1000 * 60 * 5;
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [theme, setTheme] = useState(getInitialTheme);
-  const githubStars = useGithubStars(githubStarSources);
+  const githubStats = useGithubRepoStats(githubStatsSources);
 
   useEffect(() => {
     document.title = siteMeta.title;
@@ -134,7 +134,7 @@ function App() {
                 key={group}
                 title={group}
                 papers={publications.filter((paper) => paper.group === group)}
-                githubStars={githubStars}
+                githubStats={githubStats}
               />
             ))}
           </section>
@@ -161,7 +161,7 @@ function App() {
 
           <section className="section" id="projects">
             <SectionTitle title="Projects" />
-            <ProjectList projects={projects} githubStars={githubStars} />
+            <ProjectList projects={projects} githubStats={githubStats} />
           </section>
         </main>
       </div>
@@ -184,7 +184,7 @@ function App() {
   );
 }
 
-function ProjectList({ projects, githubStars }) {
+function ProjectList({ projects, githubStats }) {
   return (
     <div className="project-grid">
       {projects.map((project) => (
@@ -201,14 +201,14 @@ function ProjectList({ projects, githubStars }) {
               <span key={tag}>{tag}</span>
             ))}
           </div>
-          <ActionLinks links={project.links} githubStars={githubStars} />
+          <ActionLinks links={project.links} githubStats={githubStats} />
         </article>
       ))}
     </div>
   );
 }
 
-function PublicationGroup({ title, papers, githubStars }) {
+function PublicationGroup({ title, papers, githubStats }) {
   const highlighted = papers.filter((paper) => paper.featured && paper.image);
   const compact = papers.filter((paper) => !(paper.featured && paper.image));
 
@@ -221,14 +221,14 @@ function PublicationGroup({ title, papers, githubStars }) {
       {highlighted.length ? (
         <div className="highlight-list">
           {highlighted.map((paper) => (
-            <FeaturedPaper key={paper.title} paper={paper} githubStars={githubStars} />
+            <FeaturedPaper key={paper.title} paper={paper} githubStats={githubStats} />
           ))}
         </div>
       ) : null}
       {compact.length ? (
         <div className="compact-paper-list">
           {compact.map((paper) => (
-            <CompactPaper key={paper.title} paper={paper} githubStars={githubStars} />
+            <CompactPaper key={paper.title} paper={paper} githubStats={githubStats} />
           ))}
         </div>
       ) : null}
@@ -318,7 +318,7 @@ function SidebarProfile() {
   );
 }
 
-function FeaturedPaper({ paper, githubStars }) {
+function FeaturedPaper({ paper, githubStats }) {
   return (
     <article className="featured-paper">
       <div className="paper-figure">
@@ -335,7 +335,7 @@ function FeaturedPaper({ paper, githubStars }) {
         <h4>{paper.title}</h4>
         <p className="authors">{highlightName(paper.authors)}</p>
         {paper.summary ? <p>{paper.summary}</p> : null}
-        <ActionLinks links={paper.links} githubStars={githubStars} />
+        <ActionLinks links={paper.links} githubStats={githubStats} />
       </div>
     </article>
   );
@@ -345,7 +345,7 @@ function toWebpPath(src) {
   return src.replace(/\.(png|jpe?g)$/i, ".webp");
 }
 
-function CompactPaper({ paper, githubStars }) {
+function CompactPaper({ paper, githubStats }) {
   return (
     <article className="compact-paper-row">
       <span className="compact-venue">
@@ -356,7 +356,7 @@ function CompactPaper({ paper, githubStars }) {
         <h4>{paper.title}</h4>
         <p className="authors">{highlightName(paper.authors)}</p>
       </div>
-      <ActionLinks links={paper.links} githubStars={githubStars} />
+      <ActionLinks links={paper.links} githubStats={githubStats} />
     </article>
   );
 }
@@ -399,26 +399,23 @@ function SemanticIcon({ icon }) {
   return <Icon className="semantic-icon" icon={icon} aria-hidden="true" />;
 }
 
-function ActionLinks({ links, githubStars }) {
+function ActionLinks({ links, githubStats }) {
   if (!links?.length) return null;
 
   return (
     <div className="action-links">
       {links.map((link) => {
         const githubRepo = getGithubRepo(link.href);
-        const liveStars = githubRepo ? githubStars[githubRepo] : undefined;
-        const fallbackStars = typeof link.stars === "number"
-          ? link.stars
-          : githubRepo
-            ? githubStarFallbacks[githubRepo]
-            : undefined;
-        const stars = liveStars ?? fallbackStars;
+        const showStats = Boolean(githubRepo && shouldShowGithubStats(link));
+        const stats = showStats
+          ? mergeGithubStats(githubStats[githubRepo], getGithubStatsFallback(githubRepo, link))
+          : null;
 
         return (
           <a key={`${link.label}-${link.href}`} href={link.href} target="_blank" rel="noreferrer">
             <i className={getActionIcon(link)} aria-hidden="true" />
             <span>{link.label}</span>
-            {githubRepo ? <GithubStars repo={githubRepo} stars={stars} /> : null}
+            {showStats ? <GithubRepoStats stats={stats} /> : null}
           </a>
         );
       })}
@@ -426,43 +423,56 @@ function ActionLinks({ links, githubStars }) {
   );
 }
 
-function GithubStars({ stars }) {
-  if (typeof stars !== "number") return null;
+function GithubRepoStats({ stats }) {
+  if (!stats || (typeof stats.stars !== "number" && typeof stats.forks !== "number")) return null;
 
   return (
-    <span className="star-count" title={`${stars.toLocaleString()} GitHub stars`}>
-      <i className="fa-solid fa-star" aria-hidden="true" />
-      {formatStars(stars)}
+    <span className="repo-stats">
+      {typeof stats.stars === "number" ? (
+        <span className="repo-stat" title={`${stats.stars.toLocaleString()} GitHub stars`}>
+          <i className="fa-solid fa-star" aria-hidden="true" />
+          {formatGithubCount(stats.stars)}
+        </span>
+      ) : null}
+      {typeof stats.forks === "number" ? (
+        <span className="repo-stat" title={`${stats.forks.toLocaleString()} GitHub forks`}>
+          <i className="fa-solid fa-code-fork" aria-hidden="true" />
+          {formatGithubCount(stats.forks)}
+        </span>
+      ) : null}
     </span>
   );
 }
 
-const githubStarFallbacks = {
-  "AaronZ345/ISDrama": 237,
-  "dieKarotte/ASAudio": 54,
-  "MRSAudio/MRSAudio_Main": 40,
-  "AaronZ345/VersBand": 225,
-  "AaronZ345/GTSinger": 371,
-  "AaronZ345/TCSinger2": 181,
-  "AaronZ345/TCSinger": 381,
-  "AaronZ345/StyleSinger": 419,
-  "gwx314/STARS": 84,
-  "gwx314/TechSinger": 100,
-  "RickyL-2000/ROSVOT": 121,
-  "DaViD-Pigeon/SyntheticSingers": 8,
-  "User-tian/Conan": 27,
-  "bytedance/MegaTTS3": 6086,
-  "Ruiyuan-Zhang/Zero-Shot-Assembly": 4
+const githubStatsFallbacks = {
+  "AaronZ345/ISDrama": { stars: 237 },
+  "dieKarotte/ASAudio": { stars: 54 },
+  "MRSAudio/MRSAudio_Main": { stars: 40 },
+  "AaronZ345/VersBand": { stars: 225 },
+  "AaronZ345/GTSinger": { stars: 371 },
+  "AaronZ345/TCSinger2": { stars: 181 },
+  "AaronZ345/TCSinger": { stars: 381 },
+  "AaronZ345/StyleSinger": { stars: 419 },
+  "gwx314/STARS": { stars: 84 },
+  "gwx314/TechSinger": { stars: 100 },
+  "RickyL-2000/ROSVOT": { stars: 121 },
+  "DaViD-Pigeon/SyntheticSingers": { stars: 8 },
+  "User-tian/Conan": { stars: 27 },
+  "bytedance/MegaTTS3": { stars: 6086 },
+  "Ruiyuan-Zhang/Zero-Shot-Assembly": { stars: 4 },
+  "chenhg5/cc-connect": { stars: 12700, forks: 1200 },
+  "AaronZ345/Athena-personal-academic-page": { stars: 59, forks: 13 },
+  "AaronZ345/codebase-argus": { stars: 57, forks: 0 }
 };
 
-function useGithubStars(collections) {
+function useGithubRepoStats(collections) {
   const repos = useMemo(() => {
     const found = new Set();
     collections.forEach((items) => {
       items.forEach((item) => {
         item.links?.forEach((link) => {
           const repo = getGithubRepo(link.href);
-          if (repo) {
+          if (repo && shouldShowGithubStats(link)) {
             found.add(repo);
           }
         });
@@ -470,37 +480,37 @@ function useGithubStars(collections) {
     });
     return Array.from(found);
   }, [collections]);
-  const [stars, setStars] = useState({});
+  const [repoStats, setRepoStats] = useState({});
 
   useEffect(() => {
     if (!repos.length) {
-      setStars({});
+      setRepoStats({});
       return undefined;
     }
 
     let cancelled = false;
     const now = Date.now();
     const cachedByRepo = Object.fromEntries(
-      repos.map((repo) => [repo, readGithubStarsCache(repo)])
+      repos.map((repo) => [repo, readGithubStatsCache(repo)])
     );
 
     const cachedEntries = repos.flatMap((repo) => {
       const cached = cachedByRepo[repo];
-      return cached && typeof cached.count === "number" ? [[repo, cached.count]] : [];
+      return cached ? [[repo, cached]] : [];
     });
 
     if (cachedEntries.length) {
-      setStars(Object.fromEntries(cachedEntries));
+      setRepoStats(Object.fromEntries(cachedEntries));
     }
 
     const reposToRefresh = repos.filter((repo) => {
       const cached = cachedByRepo[repo];
-      return !cached || now - cached.checkedAt >= githubStarsCacheTtl;
+      return !cached || now - cached.checkedAt >= githubStatsCacheTtl;
     });
 
     if (!reposToRefresh.length) return undefined;
 
-    const loadStars = async () => {
+    const loadStats = async () => {
       const entries = await Promise.all(
         reposToRefresh.map(async (repo) => {
           const controller = new AbortController();
@@ -511,16 +521,19 @@ function useGithubStars(collections) {
               signal: controller.signal
             });
             if (!response.ok) {
-              markGithubStarsCacheChecked(repo, cachedByRepo[repo]);
+              markGithubStatsCacheChecked(repo, cachedByRepo[repo]);
               return null;
             }
             const data = await response.json();
-            const count = Number(data.stargazers_count);
-            if (!Number.isFinite(count)) return null;
-            writeGithubStarsCache(repo, count);
-            return [repo, count];
+            const stats = normalizeGithubStats({
+              stars: data.stargazers_count,
+              forks: data.forks_count
+            });
+            if (!stats) return null;
+            writeGithubStatsCache(repo, stats);
+            return [repo, stats];
           } catch {
-            markGithubStarsCacheChecked(repo, cachedByRepo[repo]);
+            markGithubStatsCacheChecked(repo, cachedByRepo[repo]);
             return null;
           } finally {
             window.clearTimeout(timeout);
@@ -530,8 +543,8 @@ function useGithubStars(collections) {
 
       const liveEntries = entries.filter(Boolean);
       if (!cancelled && liveEntries.length) {
-        setStars((currentStars) => ({
-          ...currentStars,
+        setRepoStats((currentStats) => ({
+          ...currentStats,
           ...Object.fromEntries(liveEntries)
         }));
       }
@@ -539,7 +552,7 @@ function useGithubStars(collections) {
 
     let cleanupIdle = () => {};
     const cleanupLoad = runAfterInitialLoad(() => {
-      cleanupIdle = runWhenIdle(loadStars, 1200);
+      cleanupIdle = runWhenIdle(loadStats, 1200);
     });
 
     return () => {
@@ -549,48 +562,51 @@ function useGithubStars(collections) {
     };
   }, [repos]);
 
-  return stars;
+  return repoStats;
 }
 
-function readGithubStarsCache(repo) {
-  const key = getGithubStarsCacheKey(repo);
-  return readGithubStarsCacheStorage("localStorage", key)
-    ?? readGithubStarsCacheStorage("sessionStorage", key);
+function readGithubStatsCache(repo) {
+  const key = getGithubStatsCacheKey(repo);
+  return readGithubStatsCacheStorage("localStorage", key)
+    ?? readGithubStatsCacheStorage("sessionStorage", key);
 }
 
-function writeGithubStarsCache(repo, count) {
+function writeGithubStatsCache(repo, stats) {
   const now = Date.now();
-  writeGithubStarsCacheEntry(repo, { count, updatedAt: now, checkedAt: now });
+  writeGithubStatsCacheEntry(repo, { ...stats, updatedAt: now, checkedAt: now });
 }
 
-function markGithubStarsCacheChecked(repo, cached) {
+function markGithubStatsCacheChecked(repo, cached) {
   if (!cached) return;
-  writeGithubStarsCacheEntry(repo, { ...cached, checkedAt: Date.now() });
+  writeGithubStatsCacheEntry(repo, { ...cached, checkedAt: Date.now() });
 }
 
-function writeGithubStarsCacheEntry(repo, entry) {
-  const key = getGithubStarsCacheKey(repo);
-  if (writeGithubStarsCacheStorage("localStorage", key, entry)) return;
-  if (!writeGithubStarsCacheStorage("sessionStorage", key, entry)) {
+function writeGithubStatsCacheEntry(repo, entry) {
+  const key = getGithubStatsCacheKey(repo);
+  if (writeGithubStatsCacheStorage("localStorage", key, entry)) return;
+  if (!writeGithubStatsCacheStorage("sessionStorage", key, entry)) {
     // Ignore cache failures; the live count can still render.
   }
 }
 
-function readGithubStarsCacheStorage(storageName, key) {
+function readGithubStatsCacheStorage(storageName, key) {
   try {
     const storage = window[storageName];
     const cached = JSON.parse(storage.getItem(key));
-    const count = Number(cached?.count);
+    const stats = normalizeGithubStats({
+      stars: cached?.stars ?? cached?.count,
+      forks: cached?.forks
+    });
     const updatedAt = Number(cached?.updatedAt ?? cached?.timestamp);
     const checkedAt = Number(cached?.checkedAt ?? updatedAt);
-    if (!Number.isFinite(count) || !Number.isFinite(updatedAt) || !Number.isFinite(checkedAt)) return null;
-    return { count, updatedAt, checkedAt };
+    if (!stats || !Number.isFinite(updatedAt) || !Number.isFinite(checkedAt)) return null;
+    return { ...stats, updatedAt, checkedAt };
   } catch {
     return null;
   }
 }
 
-function writeGithubStarsCacheStorage(storageName, key, entry) {
+function writeGithubStatsCacheStorage(storageName, key, entry) {
   try {
     window[storageName].setItem(key, JSON.stringify(entry));
     return true;
@@ -599,8 +615,40 @@ function writeGithubStarsCacheStorage(storageName, key, entry) {
   }
 }
 
-function getGithubStarsCacheKey(repo) {
-  return `github-stars:${repo}`;
+function getGithubStatsCacheKey(repo) {
+  return `github-repo-stats:${repo}`;
+}
+
+function shouldShowGithubStats(link) {
+  if (link.showGithubStats === false || link.stats === false) return false;
+  if (link.showGithubStats === true || link.stats === true) return true;
+  return link.label.toLowerCase() === "code";
+}
+
+function getGithubStatsFallback(repo, link) {
+  const repoFallback = githubStatsFallbacks[repo];
+  return normalizeGithubStats({
+    stars: typeof link.stars === "number" ? link.stars : repoFallback?.stars,
+    forks: typeof link.forks === "number" ? link.forks : repoFallback?.forks
+  });
+}
+
+function mergeGithubStats(liveStats, fallbackStats) {
+  return normalizeGithubStats({
+    stars: liveStats?.stars ?? fallbackStats?.stars,
+    forks: liveStats?.forks ?? fallbackStats?.forks
+  });
+}
+
+function normalizeGithubStats(stats) {
+  const normalized = {};
+  const stars = Number(stats?.stars);
+  const forks = Number(stats?.forks);
+
+  if (Number.isFinite(stars)) normalized.stars = stars;
+  if (Number.isFinite(forks)) normalized.forks = forks;
+
+  return Object.keys(normalized).length ? normalized : null;
 }
 
 function getGithubRepo(href) {
@@ -615,7 +663,7 @@ function getGithubRepo(href) {
   }
 }
 
-function formatStars(value) {
+function formatGithubCount(value) {
   if (value >= 1000) {
     const rounded = Math.round((value / 1000) * 10) / 10;
     return `${rounded.toString().replace(/\.0$/, "")}k`;
