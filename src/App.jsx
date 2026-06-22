@@ -142,7 +142,9 @@ function App() {
                 </a>
                 .
               </p>
-              <p>{profile.summary} {profile.publicationSummary}</p>
+              <p>
+                {profile.summary} I have published <strong>10+</strong> {profile.publicationSummarySuffix}
+              </p>
             </div>
           </section>
 
