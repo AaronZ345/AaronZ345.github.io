@@ -12,7 +12,7 @@ export const profile = {
   summary:
     "My research interests primarily focus on Multi-Modal Generative AI, specifically in Speech, Spatial Audio, Singing Voice, and Music.",
   publicationSummarySuffix:
-    "first-author papers at top international AI conferences, such as NeurIPS, ACL, and AAAI.",
+    "first-author papers at top international AI conferences, such as NeurIPS, ICML, and ACL.",
   links: [
     { label: "Email", href: "mailto:aaron9834@icloud.com", icon: "Email" },
     { label: "Google Scholar", href: "https://scholar.google.com/citations?user=kA9A6LsAAAAJ", icon: "Scholar" },
