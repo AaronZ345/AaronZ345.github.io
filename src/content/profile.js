@@ -6,11 +6,11 @@ export const profile = {
   organizationUrl: "https://www.bytedance.com/en/",
   location: "Hangzhou, China",
   email: "aaron9834@icloud.com",
-  focus: ["Spatial Audio", "Music", "Singing Voice", "Speech"],
+  focus: ["Speech", "Spatial Audio", "Singing Voice", "Music"],
   collaboration:
     "If you are seeking any form of academic cooperation, please feel free to email me at",
   summary:
-    "I work on multi-modal generative audio systems, with a focus on expressive speech synthesis, singing voice generation, music generation, and immersive spatial audio.",
+    "I work on multi-modal generative audio systems, with a focus on expressive speech synthesis, immersive spatial audio, singing voice generation, and music generation.",
   publicationSummary:
     "I have published 10+ first-author and co-first papers at top international AI conferences, such as NeurIPS, ICML, and ACL.",
   education:
