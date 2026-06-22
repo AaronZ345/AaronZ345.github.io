@@ -106,7 +106,42 @@ function App() {
                 {profile.collaboration}{" "}
                 <a href={`mailto:${profile.email}`}>{profile.email}</a>.
               </p>
-              <p>{profile.education}</p>
+              <p>
+                I earned my PhD in{" "}
+                <a href="http://www.en.cs.zju.edu.cn/" target="_blank" rel="noreferrer">
+                  the College of Computer Science and Technology
+                </a>
+                ,{" "}
+                <a href="https://www.zju.edu.cn/english/" target="_blank" rel="noreferrer">
+                  Zhejiang University
+                </a>{" "}
+                (浙江大学计算机科学与技术学院), under the supervision of{" "}
+                <a href="https://person.zju.edu.cn/zhaozhou" target="_blank" rel="noreferrer">
+                  Prof. Zhou Zhao (赵洲)
+                </a>
+                . Previously, I graduated from{" "}
+                <a href="http://ckc.zju.edu.cn/ckcen/main.htm" target="_blank" rel="noreferrer">
+                  Chu Kochen Honors College
+                </a>
+                , Zhejiang University (浙江大学竺可桢学院), with dual bachelor's degrees in Computer Science and
+                Automation. I have also served as a visiting scholar at{" "}
+                <a href="https://www.rochester.edu/" target="_blank" rel="noreferrer">
+                  University of Rochester
+                </a>{" "}
+                with{" "}
+                <a href="https://www.hajim.rochester.edu/ece/people/faculty/duan_zhiyao" target="_blank" rel="noreferrer">
+                  Prof. Zhiyao Duan
+                </a>{" "}
+                and{" "}
+                <a href="https://www.umass.edu/" target="_blank" rel="noreferrer">
+                  University of Massachusetts Amherst
+                </a>{" "}
+                with{" "}
+                <a href="https://www.cics.umass.edu/about/directory/przemyslaw-grabowicz" target="_blank" rel="noreferrer">
+                  Prof. Przemyslaw Grabowicz
+                </a>
+                .
+              </p>
               <p>{profile.summary} {profile.publicationSummary}</p>
             </div>
           </section>

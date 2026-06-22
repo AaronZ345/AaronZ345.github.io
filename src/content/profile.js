@@ -13,8 +13,6 @@ export const profile = {
     "My research interests primarily focus on Multi-Modal Generative AI, specifically in Speech, Spatial Audio, Singing Voice, and Music.",
   publicationSummary:
     "I have published 10+ first-author papers at top international AI conferences, such as NeurIPS, ACL, and AAAI.",
-  education:
-    "I earned my PhD in the College of Computer Science and Technology, Zhejiang University (浙江大学计算机科学与技术学院), under the supervision of Prof. Zhou Zhao (赵洲). Previously, I graduated from Chu Kochen Honors College, Zhejiang University (浙江大学竺可桢学院), with dual bachelor's degrees in Computer Science and Automation. I have also served as a visiting scholar at University of Rochester with Prof. Zhiyao Duan and University of Massachusetts Amherst with Prof. Przemyslaw Grabowicz.",
   links: [
     { label: "Email", href: "mailto:aaron9834@icloud.com", icon: "Email" },
     { label: "Google Scholar", href: "https://scholar.google.com/citations?user=kA9A6LsAAAAJ", icon: "Scholar" },
