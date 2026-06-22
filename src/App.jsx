@@ -101,7 +101,7 @@ function App() {
             <SectionTitle title="About Me" />
             <div className="intro-copy">
               <p>
-                I am <strong>{profile.name} ({profile.nativeName})</strong>, a {profile.role} at{" "}
+                I am <strong>{profile.name} ({profile.nativeName})</strong>. Now, I am a {profile.role} at{" "}
                 <a href={profile.organizationUrl} target="_blank" rel="noreferrer">{profile.organization}</a>.{" "}
                 {profile.collaboration}{" "}
                 <a href={`mailto:${profile.email}`}>{profile.email}</a>.
