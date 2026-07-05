@@ -88,6 +88,17 @@ export const publications = [
     ]
   },
   {
+    title: "Spatial-Omni: Spatial Audio Understanding Integration in Multimodal LLMs via FOA Encoding",
+    venue: "Preprint",
+    year: "2026",
+    group: "Spatial Audio",
+    authors: "Zhiyuan Zhu, Yixuan Chen, Yiwen Shao, Wenxiang Guo, Changhao Pan, Yu Zhang, et al.",
+    links: [
+      { label: "Paper", href: "https://arxiv.org/abs/2606.10738" },
+      { label: "Code", href: "https://github.com/dieKarotte/Spatial-Omni" }
+    ]
+  },
+  {
     title: "Versatile Framework for Song Generation with Prompt-based Control",
     venue: "EMNLP 2025",
     year: "2025",
@@ -243,7 +254,32 @@ export const publications = [
     year: "2026",
     group: "Speech",
     authors: "Fangming Feng, Dongjie Fu, Zequn Xie, Yu Zhang, et al.",
-    links: []
+    links: [
+      { label: "Paper", href: "https://aclanthology.org/2026.acl-long.998/" },
+      { label: "Demo", href: "https://showtts.github.io/emotionTTS/" }
+    ]
+  },
+  {
+    title: "Audio Editing in the Era of Foundation Models: A Survey",
+    venue: "Preprint",
+    year: "2026",
+    group: "Speech",
+    authors: "Changhao Pan, Yifei Fan, Fan Zhuo, Yifu Chen, Wenxiang Guo, Yu Zhang, et al.",
+    links: [
+      { label: "Paper", href: "https://arxiv.org/abs/2606.23139" },
+      { label: "Project", href: "https://github.com/DaViD-Pigeon/AudioEditSurvey" }
+    ]
+  },
+  {
+    title: "A Survey of Full-Duplex Spoken Dialogue Systems: Architectural Hierarchy, Interaction Ontology, and Decision State Machine",
+    venue: "Preprint",
+    year: "2026",
+    group: "Speech",
+    authors: "Jingyu Lu, Yuhan Wang, Jianming Luo, Yifu Chen, Tianle Liang, Shengpeng Ji, Ziyue Jiang, Xiaoda Yang, Yu Zhang, et al.",
+    links: [
+      { label: "Paper", href: "https://arxiv.org/abs/2606.19453" },
+      { label: "Project", href: "https://github.com/DuplexLM/DuplexSurvey" }
+    ]
   },
   {
     title: "MegaTTS 3: Sparse Alignment Enhanced Latent Diffusion Transformer for Zero-Shot Speech Synthesis",
