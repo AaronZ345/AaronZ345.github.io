@@ -1,7 +1,7 @@
 export const projects = [
   {
     name: "cc-connect",
-    role: "Contributor",
+    role: "Core Contributor",
     description:
       "An agent bridge for coding assistants and chat platforms, connecting Claude Code, Codex, Gemini, and provider workflows across rich messaging surfaces.",
     tags: ["AI Agents", "Claude Code", "Codex", "Messaging"],
