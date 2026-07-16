@@ -213,9 +213,9 @@ export const publications = [
       { label: "Paper", href: "https://arxiv.org/abs/2505.14910" },
       { label: "Demo", href: "https://aaronz345.github.io/TCSinger2Demo/" },
       { label: "Code", href: "https://github.com/AaronZ345/TCSinger2" },
-      { label: "WeChat@语音之家", href: "https://mp.weixin.qq.com/s/Uvt27dt2S3TpBjJccl9mTA" },
-      { label: "WeChat@PaperWeekly", href: "https://mp.weixin.qq.com/s/c6CPx14y_wASU_dSXKcAJQ" },
-      { label: "Zhihu", href: "https://zhuanlan.zhihu.com/p/1928562845236303816" }
+      // { label: "WeChat@语音之家", href: "https://mp.weixin.qq.com/s/Uvt27dt2S3TpBjJccl9mTA" },
+      // { label: "WeChat@PaperWeekly", href: "https://mp.weixin.qq.com/s/c6CPx14y_wASU_dSXKcAJQ" },
+      // { label: "Zhihu", href: "https://zhuanlan.zhihu.com/p/1928562845236303816" }
     ],
     // featured: true
   },
@@ -232,7 +232,7 @@ export const publications = [
       { label: "Paper", href: "https://arxiv.org/abs/2409.15977" },
       { label: "Demo", href: "https://aaronz345.github.io/TCSingerDemo/" },
       { label: "Code", href: "https://github.com/AaronZ345/TCSinger" },
-      { label: "Zhihu", href: "https://zhuanlan.zhihu.com/p/777601485" }
+      // { label: "Zhihu", href: "https://zhuanlan.zhihu.com/p/777601485" }
     ],
     // featured: true
   },
@@ -249,7 +249,7 @@ export const publications = [
       { label: "Paper", href: "https://arxiv.org/abs/2312.10741" },
       { label: "Demo", href: "https://aaronz345.github.io/StyleSingerDemo/" },
       { label: "Code", href: "https://github.com/AaronZ345/StyleSinger" },
-      { label: "Zhihu", href: "https://zhuanlan.zhihu.com/p/775792127" }
+      // { label: "Zhihu", href: "https://zhuanlan.zhihu.com/p/775792127" }
     ],
     // featured: true
   },
