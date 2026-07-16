@@ -103,10 +103,16 @@ export const publications = [
     venue: "ICML 2026",
     year: "2026",
     group: "Spatial Audio",
-    authors: "Ke Lei*, Yu Zhang*, Changhao Pan, et al.",
+    image: "/images/swansphere.png",
+    authors: "Ke Lei*, Yu Zhang*, Changhao Pan*, et al.",
+    summary:
+      "A causal autoregressive diffusion transformer architecture that enables streaming high-quality spatial audio generation.",
     links: [
       { label: "Paper", href: "https://arxiv.org/abs/2605.30940" },
-      { label: "Demo", href: "https://swanaigc.github.io/#swansphere" }
+      { label: "Demo", href: "https://swanaigc.github.io/#swansphere" },
+      { label: "Code", href: "https://github.com/MM-Speech/SwanSphere" },
+      { label: "WeChat@语音之家", href: "https://mp.weixin.qq.com/s/_J36L_YtqcYq0nOSVDng4w" },
+      { label: "Zhihu", href: "https://zhuanlan.zhihu.com/p/2046629923801108570" },
     ]
   },
   {
