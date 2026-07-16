@@ -1,7 +1,7 @@
 export const siteMeta = {
   title: "Yu Zhang (张彧) - Homepage",
   description:
-    "Yu Zhang is a research scientist working on multi-modal generative audio, including speech, spatial audio, singing voice, and music.",
+    "Yu Zhang is a research scientist working on multi-modal generative audio, including speech, spatial audio, and singing voice.",
   socialDescription:
     "Research scientist working on multi-modal generative audio, including speech, spatial audio, singing voice, and music.",
   url: "https://aaronz345.github.io/",
