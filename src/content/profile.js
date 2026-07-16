@@ -6,7 +6,7 @@ export const profile = {
   organizationUrl: "https://www.bytedance.com/en/",
   location: "Hangzhou, China",
   email: "aaron9834@icloud.com",
-  focus: ["Speech", "Spatial Audio", "Singing Voice", "Music"],
+  focus: ["Speech", "Spatial Audio", "Singing Voice"],
   collaboration:
     "If you are seeking any form of academic cooperation, please feel free to email me at",
   summary:
