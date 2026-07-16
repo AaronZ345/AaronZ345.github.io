@@ -3,7 +3,7 @@ export const publications = [
     title: "SwanVoice: Expressive Long-Form Zero-Shot Speech Synthesis for Both Monologue and Dialogue",
     venue: "Technical Report",
     year: "2026",
-    group: "Swan Series",
+    group: "Speech",
     authors: "Ruiqi Li*, Yu Zhang*, Changhao Pan*, et al.",
     links: [
       { label: "Paper", href: "https://arxiv.org/abs/2605.30993" },
@@ -11,25 +11,71 @@ export const publications = [
     ]
   },
   {
-    title: "Towards Streaming Synchronized Spatial Audio Generation via Autoregressive Diffusion Transformer",
-    venue: "ICML 2026",
-    year: "2026",
-    group: "Swan Series",
-    authors: "Ke Lei*, Yu Zhang*, Changhao Pan, et al.",
+    title: "Conan: A Chunkwise Online Network for Zero-Shot Adaptive Voice Conversion",
+    venue: "ASRU 2025",
+    year: "2025",
+    group: "Speech",
+    authors: "Yu Zhang, Baotong Tian, Zhiyao Duan",
     links: [
-      { label: "Paper", href: "https://arxiv.org/abs/2605.30940" },
-      { label: "Demo", href: "https://swanaigc.github.io/#swansphere" }
+      { label: "Paper", href: "https://arxiv.org/abs/2507.14534" },
+      { label: "Demo", href: "https://aaronz345.github.io/ConanDemo/" },
+      { label: "Code", href: "https://github.com/User-tian/Conan" }
+    ]
+  },
+  {
+    title: "Rectifying the Emotional Flow: Aligning Priors and Dynamic Guidance for High-Arousal Text-to-Speech",
+    venue: "ACL 2026",
+    year: "2026",
+    group: "Speech",
+    authors: "Fangming Feng, Dongjie Fu, Zequn Xie, Yu Zhang, et al.",
+    links: [
+      { label: "Paper", href: "https://aclanthology.org/2026.acl-long.998/" },
+      { label: "Demo", href: "https://showtts.github.io/emotionTTS/" }
+    ]
+  },
+  {
+    title: "Audio Editing in the Era of Foundation Models: A Survey",
+    venue: "Preprint",
+    year: "2026",
+    group: "Speech",
+    authors: "Changhao Pan, Yifei Fan, Fan Zhuo, Yifu Chen, Wenxiang Guo, Yu Zhang, et al.",
+    links: [
+      { label: "Paper", href: "https://arxiv.org/abs/2606.23139" },
+      { label: "Project", href: "https://github.com/DaViD-Pigeon/AudioEditSurvey" }
     ]
   },
   {
     title: "Comprehensive Benchmarking of Long-Form Speech Generation in Diverse Scenarios",
     venue: "ACL 2026",
     year: "2026",
-    group: "Swan Series",
+    group: "Speech",
     authors: "Changhao Pan, Rui Yang, Han Wang, Zhuan Zhou, Xuming He, Wenxiang Guo, Ziyue Jiang, Ruiqi Li, Yu Zhang, et al.",
     links: [
       { label: "Paper", href: "https://arxiv.org/abs/2605.28618" },
       { label: "Demo", href: "https://swanaigc.github.io/#bench" }
+    ]
+  },
+  {
+    title: "A Survey of Full-Duplex Spoken Dialogue Systems: Architectural Hierarchy, Interaction Ontology, and Decision State Machine",
+    venue: "Preprint",
+    year: "2026",
+    group: "Speech",
+    authors: "Jingyu Lu, Yuhan Wang, Jianming Luo, Yifu Chen, Tianle Liang, Shengpeng Ji, Ziyue Jiang, Xiaoda Yang, Yu Zhang, et al.",
+    links: [
+      { label: "Paper", href: "https://arxiv.org/abs/2606.19453" },
+      { label: "Project", href: "https://github.com/DuplexLM/DuplexSurvey" }
+    ]
+  },
+  {
+    title: "MegaTTS 3: Sparse Alignment Enhanced Latent Diffusion Transformer for Zero-Shot Speech Synthesis",
+    venue: "Technical Report",
+    year: "2025",
+    group: "Speech",
+    authors: "Ziyue Jiang, Yi Ren, Ruiqi Li, Shengpeng Ji, Zhenhui Ye, Chen Zhang, Bai Jionghao, Xiaoda Yang, Jialong Zuo, Yu Zhang, et al.",
+    links: [
+      { label: "Paper", href: "https://www.arxiv.org/abs/2502.18924" },
+      { label: "Demo", href: "https://sditdemo.github.io/sditdemo/" },
+      { label: "Code", href: "https://github.com/bytedance/MegaTTS3" }
     ]
   },
   {
@@ -51,6 +97,17 @@ export const publications = [
       { label: "Zhihu", href: "https://zhuanlan.zhihu.com/p/1930597017840779306" }
     ],
     featured: true
+  },
+  {
+    title: "Towards Streaming Synchronized Spatial Audio Generation via Autoregressive Diffusion Transformer",
+    venue: "ICML 2026",
+    year: "2026",
+    group: "Spatial Audio",
+    authors: "Ke Lei*, Yu Zhang*, Changhao Pan, et al.",
+    links: [
+      { label: "Paper", href: "https://arxiv.org/abs/2605.30940" },
+      { label: "Demo", href: "https://swanaigc.github.io/#swansphere" }
+    ]
   },
   {
     title: "ASAudio: A Survey of Advanced Spatial Audio Research",
@@ -99,24 +156,6 @@ export const publications = [
     ]
   },
   {
-    title: "Versatile Framework for Song Generation with Prompt-based Control",
-    venue: "EMNLP 2025",
-    year: "2025",
-    group: "Music",
-    image: "/images/versband.png",
-    authors: "Yu Zhang, Wenxiang Guo, Changhao Pan, et al.",
-    summary: "A multi-task song generation framework for high-quality aligned songs with prompt-based control.",
-    links: [
-      { label: "Paper", href: "https://arxiv.org/abs/2504.19062" },
-      { label: "Demo", href: "https://aaronz345.github.io/VersBandDemo/" },
-      { label: "Code", href: "https://github.com/AaronZ345/VersBand" },
-      { label: "WeChat@语音之家", href: "https://mp.weixin.qq.com/s/fsbNdPyfEFi-_QHOCy85RQ" },
-      { label: "WeChat@PaperWeekly", href: "https://mp.weixin.qq.com/s/tIwnbBXqVEwlUKRwxPceSA" },
-      { label: "Zhihu", href: "https://zhuanlan.zhihu.com/p/1943351555119097448" }
-    ],
-    featured: true
-  },
-  {
     title: "GTSinger: A Global Multi-Technique Singing Corpus with Realistic Music Scores for All Singing Tasks",
     venue: "NeurIPS 2024 Spotlight",
     year: "2024",
@@ -133,6 +172,24 @@ export const publications = [
       { label: "WeChat@机器之心", href: "https://mp.weixin.qq.com/s/B1Iqr-24l57f0MslzYEslA" },
       { label: "WeChat@PaperWeekly", href: "https://mp.weixin.qq.com/s/6RLdUzJM5PItklKUTTNz2w" },
       { label: "Zhihu", href: "https://zhuanlan.zhihu.com/p/993933492" }
+    ],
+    featured: true
+  },
+  {
+    title: "Versatile Framework for Song Generation with Prompt-based Control",
+    venue: "EMNLP 2025",
+    year: "2025",
+    group: "Singing Voice",
+    image: "/images/versband.png",
+    authors: "Yu Zhang, Wenxiang Guo, Changhao Pan, et al.",
+    summary: "A multi-task song generation framework for high-quality aligned songs with prompt-based control.",
+    links: [
+      { label: "Paper", href: "https://arxiv.org/abs/2504.19062" },
+      { label: "Demo", href: "https://aaronz345.github.io/VersBandDemo/" },
+      { label: "Code", href: "https://github.com/AaronZ345/VersBand" },
+      { label: "WeChat@语音之家", href: "https://mp.weixin.qq.com/s/fsbNdPyfEFi-_QHOCy85RQ" },
+      { label: "WeChat@PaperWeekly", href: "https://mp.weixin.qq.com/s/tIwnbBXqVEwlUKRwxPceSA" },
+      { label: "Zhihu", href: "https://zhuanlan.zhihu.com/p/1943351555119097448" }
     ],
     featured: true
   },
@@ -234,63 +291,6 @@ export const publications = [
     links: [
       { label: "Paper", href: "https://arxiv.org/abs/2601.13910" },
       { label: "Code", href: "https://github.com/DaViD-Pigeon/SyntheticSingers" }
-    ]
-  },
-  {
-    title: "Conan: A Chunkwise Online Network for Zero-Shot Adaptive Voice Conversion",
-    venue: "ASRU 2025",
-    year: "2025",
-    group: "Speech",
-    authors: "Yu Zhang, Baotong Tian, Zhiyao Duan",
-    links: [
-      { label: "Paper", href: "https://arxiv.org/abs/2507.14534" },
-      { label: "Demo", href: "https://aaronz345.github.io/ConanDemo/" },
-      { label: "Code", href: "https://github.com/User-tian/Conan" }
-    ]
-  },
-  {
-    title: "Rectifying the Emotional Flow: Aligning Priors and Dynamic Guidance for High-Arousal Text-to-Speech",
-    venue: "ACL 2026",
-    year: "2026",
-    group: "Speech",
-    authors: "Fangming Feng, Dongjie Fu, Zequn Xie, Yu Zhang, et al.",
-    links: [
-      { label: "Paper", href: "https://aclanthology.org/2026.acl-long.998/" },
-      { label: "Demo", href: "https://showtts.github.io/emotionTTS/" }
-    ]
-  },
-  {
-    title: "Audio Editing in the Era of Foundation Models: A Survey",
-    venue: "Preprint",
-    year: "2026",
-    group: "Speech",
-    authors: "Changhao Pan, Yifei Fan, Fan Zhuo, Yifu Chen, Wenxiang Guo, Yu Zhang, et al.",
-    links: [
-      { label: "Paper", href: "https://arxiv.org/abs/2606.23139" },
-      { label: "Project", href: "https://github.com/DaViD-Pigeon/AudioEditSurvey" }
-    ]
-  },
-  {
-    title: "A Survey of Full-Duplex Spoken Dialogue Systems: Architectural Hierarchy, Interaction Ontology, and Decision State Machine",
-    venue: "Preprint",
-    year: "2026",
-    group: "Speech",
-    authors: "Jingyu Lu, Yuhan Wang, Jianming Luo, Yifu Chen, Tianle Liang, Shengpeng Ji, Ziyue Jiang, Xiaoda Yang, Yu Zhang, et al.",
-    links: [
-      { label: "Paper", href: "https://arxiv.org/abs/2606.19453" },
-      { label: "Project", href: "https://github.com/DuplexLM/DuplexSurvey" }
-    ]
-  },
-  {
-    title: "MegaTTS 3: Sparse Alignment Enhanced Latent Diffusion Transformer for Zero-Shot Speech Synthesis",
-    venue: "Technical Report",
-    year: "2025",
-    group: "Speech",
-    authors: "Ziyue Jiang, Yi Ren, Ruiqi Li, Shengpeng Ji, Zhenhui Ye, Chen Zhang, Bai Jionghao, Xiaoda Yang, Jialong Zuo, Yu Zhang, et al.",
-    links: [
-      { label: "Paper", href: "https://www.arxiv.org/abs/2502.18924" },
-      { label: "Demo", href: "https://sditdemo.github.io/sditdemo/" },
-      { label: "Code", href: "https://github.com/bytedance/MegaTTS3" }
     ]
   },
   {
