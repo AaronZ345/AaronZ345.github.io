@@ -167,10 +167,6 @@
   --fa: "\f121";
 }
 
-.fa-code-fork {
-  --fa: "\e13b";
-}
-
 .fa-database {
   --fa: "\f1c0";
 }
@@ -840,14 +836,27 @@ input {
 
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% - 28px) / 3);
   gap: 14px;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  scroll-padding-inline: 2px;
+  scroll-snap-type: inline proximity;
+  scrollbar-width: thin;
+  padding: 3px 2px 12px;
+}
+
+.project-grid:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 3px;
 }
 
 .project-card {
   display: flex;
   min-width: 0;
   flex-direction: column;
+  scroll-snap-align: start;
   border: 1px solid var(--border);
   border-left: 3px solid var(--blue);
   border-radius: var(--radius);
@@ -1479,9 +1488,12 @@ a.timeline-place:hover {
   }
 
   .featured-paper,
-  .compact-paper-row,
-  .project-grid {
+  .compact-paper-row {
     grid-template-columns: 1fr;
+  }
+
+  .project-grid {
+    grid-auto-columns: min(82vw, 340px);
   }
 
   .compact-paper-row {
@@ -1512,6 +1524,10 @@ a.timeline-place:hover {
 
   .sidebar-card {
     display: block;
+  }
+
+  .project-grid {
+    grid-auto-columns: min(84vw, 320px);
   }
 
   .sidebar-avatar-frame {
