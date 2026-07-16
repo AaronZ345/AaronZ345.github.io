@@ -20,4 +20,4 @@ export const navItems = [
   { label: "Projects", href: "#projects" }
 ];
 
-export const publicationGroups = ["Swan Series", "Spatial Audio", "Singing Voice", "Music", "Speech", "Others"];
+export const publicationGroups = ["Speech", "Spatial Audio", "Singing Voice", "Others"];
