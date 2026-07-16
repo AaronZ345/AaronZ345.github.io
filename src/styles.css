@@ -934,8 +934,6 @@ input {
 }
 
 .project-card .action-links {
-  align-items: flex-start;
-  flex-direction: column;
   margin-top: auto;
   padding-top: 14px;
 }
