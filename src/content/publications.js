@@ -113,7 +113,8 @@ export const publications = [
       { label: "Code", href: "https://github.com/MM-Speech/SwanSphere" },
       { label: "WeChat@语音之家", href: "https://mp.weixin.qq.com/s/_J36L_YtqcYq0nOSVDng4w" },
       { label: "Zhihu", href: "https://zhuanlan.zhihu.com/p/2046629923801108570" },
-    ]
+    ],
+    featured: true
   },
   {
     title: "ASAudio: A Survey of Advanced Spatial Audio Research",
@@ -216,7 +217,7 @@ export const publications = [
       { label: "WeChat@PaperWeekly", href: "https://mp.weixin.qq.com/s/c6CPx14y_wASU_dSXKcAJQ" },
       { label: "Zhihu", href: "https://zhuanlan.zhihu.com/p/1928562845236303816" }
     ],
-    featured: true
+    // featured: true
   },
   {
     title: "TCSinger: Zero-Shot Singing Voice Synthesis with Style Transfer and Multi-Level Style Control",
@@ -233,7 +234,7 @@ export const publications = [
       { label: "Code", href: "https://github.com/AaronZ345/TCSinger" },
       { label: "Zhihu", href: "https://zhuanlan.zhihu.com/p/777601485" }
     ],
-    featured: true
+    // featured: true
   },
   {
     title: "StyleSinger: Style Transfer for Out-of-Domain Singing Voice Synthesis",
@@ -250,7 +251,7 @@ export const publications = [
       { label: "Code", href: "https://github.com/AaronZ345/StyleSinger" },
       { label: "Zhihu", href: "https://zhuanlan.zhihu.com/p/775792127" }
     ],
-    featured: true
+    // featured: true
   },
   {
     title: "STARS: A Unified Framework for Singing Transcription, Alignment, and Refined Style Annotation",
