@@ -7,7 +7,7 @@ export const services = [
       "ICML 2026",
       "CVPR 2026",
       "ACL 2024, 2025, 2026",
-      "AAAI 2026",
+      "AAAI 2026, 2027",
       "ACM-MM 2025, 2026",
       "EMNLP 2024, 2025, 2026",
       "IJCNLP-AACL 2025",
