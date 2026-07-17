@@ -1,14 +1,32 @@
 export const publications = [
   {
+    title: "SwanTale: Unified Multi-Speaker Speech and Audio Generation for Instruct and Zero-Shot Tasks",
+    venue: "Technical Report",
+    year: "2026",
+    group: "Speech",
+    image: "/images/swantale.png",
+    authors: "Yu Zhang, Ruiqi Li, Changhao Pan, et al.",
+    summary:
+      "A unified model for multi-speaker expressive speech and audio generation across instruct and zero-shot tasks.",
+    links: [
+      { label: "Demo", href: "https://swanaigc.github.io/#swantale" }
+    ],
+    featured: true
+  },
+  {
     title: "SwanVoice: Expressive Long-Form Zero-Shot Speech Synthesis for Both Monologue and Dialogue",
     venue: "Technical Report",
     year: "2026",
     group: "Speech",
+    image: "/images/swanvoice.png",
     authors: "Ruiqi Li*, Yu Zhang*, Changhao Pan*, et al.",
+    summary:
+      "A zero-shot TTS model for expressive long-form monologue and dialogue with one to four speakers.",
     links: [
       { label: "Paper", href: "https://arxiv.org/abs/2605.30993" },
       { label: "Demo", href: "https://swanaigc.github.io/#swanvoice" }
-    ]
+    ],
+    featured: true
   },
   {
     title: "Conan: A Chunkwise Online Network for Zero-Shot Adaptive Voice Conversion",
