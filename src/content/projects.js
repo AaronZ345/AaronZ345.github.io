@@ -31,5 +31,27 @@ export const projects = [
       { label: "Code", href: "https://github.com/AaronZ345/codebase-argus", stars: 57 },
       { label: "Demo", href: "https://aaronz345.github.io/codebase-argus/" }
     ]
+  },
+  {
+    name: "CowAgent",
+    role: "Contributor",
+    description:
+      "An open-source AI assistant and agent harness for running tools and skills across models and chat platforms.",
+    tags: ["AI Agents", "Agent Harness", "Multi-Channel"],
+    links: [
+      { label: "Code", href: "https://github.com/zhayujie/CowAgent", stars: 45000 },
+      { label: "Homepage", href: "https://cowagent.ai/" }
+    ]
+  },
+  {
+    name: "QwenPaw",
+    role: "Contributor",
+    description:
+      "An extensible personal AI assistant that runs locally or in the cloud and connects to multiple chat platforms.",
+    tags: ["AI Assistant", "Skills", "Multi-Agent"],
+    links: [
+      { label: "Code", href: "https://github.com/agentscope-ai/QwenPaw", stars: 17000 },
+      { label: "Homepage", href: "https://qwenpaw.agentscope.io/" }
+    ]
   }
 ];
