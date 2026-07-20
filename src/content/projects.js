@@ -7,7 +7,7 @@ export const projects = [
     tags: ["AI Agents", "Agent Harness", "Multi-Channel"],
     links: [
       { label: "Code", href: "https://github.com/zhayujie/CowAgent", stars: 45000 },
-      { label: "Homepage", href: "https://cowagent.ai/" }
+      { label: "Release", href: "https://github.com/zhayujie/CowAgent/releases" }
     ]
   },
   {
@@ -51,7 +51,7 @@ export const projects = [
     tags: ["AI Assistant", "Skills", "Multi-Agent"],
     links: [
       { label: "Code", href: "https://github.com/agentscope-ai/QwenPaw", stars: 17000 },
-      { label: "Homepage", href: "https://qwenpaw.agentscope.io/" }
+      { label: "Release", href: "https://github.com/agentscope-ai/QwenPaw/releases" }
     ]
   },
   {
@@ -62,7 +62,7 @@ export const projects = [
     tags: ["Context Database", "Agent Memory", "RAG"],
     links: [
       { label: "Code", href: "https://github.com/volcengine/OpenViking", stars: 26994 },
-      { label: "Homepage", href: "https://openviking.ai/" }
+      { label: "Release", href: "https://github.com/volcengine/OpenViking/releases" }
     ]
   }
 ];
