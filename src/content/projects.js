@@ -1,5 +1,16 @@
 export const projects = [
   {
+    name: "CowAgent",
+    role: "Core Contributor",
+    description:
+      "An open-source AI assistant and agent harness for running tools and skills across models and chat platforms.",
+    tags: ["AI Agents", "Agent Harness", "Multi-Channel"],
+    links: [
+      { label: "Code", href: "https://github.com/zhayujie/CowAgent", stars: 45000 },
+      { label: "Homepage", href: "https://cowagent.ai/" }
+    ]
+  },
+  {
     name: "cc-connect",
     role: "Core Contributor",
     description:
@@ -33,17 +44,6 @@ export const projects = [
     ]
   },
   {
-    name: "CowAgent",
-    role: "Contributor",
-    description:
-      "An open-source AI assistant and agent harness for running tools and skills across models and chat platforms.",
-    tags: ["AI Agents", "Agent Harness", "Multi-Channel"],
-    links: [
-      { label: "Code", href: "https://github.com/zhayujie/CowAgent", stars: 45000 },
-      { label: "Homepage", href: "https://cowagent.ai/" }
-    ]
-  },
-  {
     name: "QwenPaw",
     role: "Contributor",
     description:
@@ -52,6 +52,17 @@ export const projects = [
     links: [
       { label: "Code", href: "https://github.com/agentscope-ai/QwenPaw", stars: 17000 },
       { label: "Homepage", href: "https://qwenpaw.agentscope.io/" }
+    ]
+  },
+  {
+    name: "OpenViking",
+    role: "Contributor",
+    description:
+      "A self-evolving context database for AI agents that unifies memory, knowledge retrieval, and skills.",
+    tags: ["Context Database", "Agent Memory", "RAG"],
+    links: [
+      { label: "Code", href: "https://github.com/volcengine/OpenViking", stars: 26994 },
+      { label: "Homepage", href: "https://openviking.ai/" }
     ]
   }
 ];
