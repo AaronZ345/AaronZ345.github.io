@@ -1,7 +1,7 @@
 export const projects = [
   {
     name: "CowAgent",
-    role: "Core Contributor",
+    role: "Top Contributor",
     description:
       "An open-source AI assistant and agent harness for running tools and skills across models and chat platforms.",
     tags: ["AI Agents", "Agent Harness", "Multi-Channel"],
@@ -12,7 +12,7 @@ export const projects = [
   },
   {
     name: "cc-connect",
-    role: "Core Contributor",
+    role: "Top Contributor",
     description:
       "A messaging bridge that connects Claude Code, Codex, and Gemini to chat platforms.",
     tags: ["AI Agents", "Codex", "Messaging"],
