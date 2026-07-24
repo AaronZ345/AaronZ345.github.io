@@ -1,18 +1,18 @@
 export const publications = [
-  {
-    title: "SwanTale: Unified Multi-Speaker Speech and Audio Generation for Instruct and Zero-Shot Tasks",
-    venue: "Technical Report",
-    year: "2026",
-    group: "Speech",
-    image: "/images/swantale.png",
-    authors: "Yu Zhang, Ruiqi Li, Changhao Pan, et al.",
-    summary:
-      "A unified model for multi-speaker expressive speech and audio generation across instruct and zero-shot tasks.",
-    links: [
-      { label: "Demo", href: "https://swanaigc.github.io/#swantale" }
-    ],
-    featured: true
-  },
+  // {
+  //   title: "SwanTale: Unified Multi-Speaker Speech and Audio Generation for Instruct and Zero-Shot Tasks",
+  //   venue: "Technical Report",
+  //   year: "2026",
+  //   group: "Speech",
+  //   image: "/images/swantale.png",
+  //   authors: "Yu Zhang, Ruiqi Li, Changhao Pan, et al.",
+  //   summary:
+  //     "A unified model for multi-speaker expressive speech and audio generation across instruct and zero-shot tasks.",
+  //   links: [
+  //     { label: "Demo", href: "https://swanaigc.github.io/#swantale" }
+  //   ],
+  //   featured: true
+  // },
   {
     title: "SwanVoice: Expressive Long-Form Zero-Shot Speech Synthesis for Both Monologue and Dialogue",
     venue: "Technical Report",
