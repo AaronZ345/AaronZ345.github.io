@@ -9,6 +9,7 @@ export const publications = [
     summary:
       "A unified model for multi-speaker expressive speech and audio generation across instruct and zero-shot tasks.",
     links: [
+      { label: "Paper", href: "https://arxiv.org/abs/2608.02023" },
       { label: "Demo", href: "https://swanaigc.github.io/#swantale" }
     ],
     featured: true
