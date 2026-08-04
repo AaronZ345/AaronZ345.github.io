@@ -1,4 +1,5 @@
 export const news = [
+  { date: "2026.08", icon: "release", text: "Our team released SwanTale!", href: "https://arxiv.org/abs/2608.02023" },
   { date: "2026.06", icon: "release", text: "Our team released SwanVoice!", href: "https://arxiv.org/abs/2605.30993" },
   { date: "2026.05", icon: "accepted", text: "SwanSphere is accepted by ICML 2026!", href: "https://arxiv.org/abs/2605.30940" },
   { date: "2025.10", icon: "accepted", text: "ASAudio is accepted by IJCNLP-AACL 2025!", href: "https://arxiv.org/abs/2508.10924" },
