@@ -17,6 +17,7 @@ import speechBalloonIcon from "@iconify-icons/twemoji/speech-balloon";
 import speakerHighVolumeIcon from "@iconify-icons/twemoji/speaker-high-volume";
 import studioMicrophoneIcon from "@iconify-icons/twemoji/studio-microphone";
 import swanIcon from "@iconify-icons/twemoji/swan";
+import thirdPlaceMedalIcon from "@iconify-icons/twemoji/3rd-place-medal";
 import trophyIcon from "@iconify-icons/twemoji/trophy";
 
 export const profileIconMap = {
@@ -62,6 +63,7 @@ export const serviceIconMap = {
 export const newsIconMap = {
   release: rocketIcon,
   ranked: firstPlaceMedalIcon,
+  rankedThird: thirdPlaceMedalIcon,
   accepted: bookmarkTabsIcon,
   career: briefcaseIcon,
   degree: graduationCapIcon,

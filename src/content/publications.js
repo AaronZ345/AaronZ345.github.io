@@ -29,7 +29,11 @@ export const publications = [
       "A zero-shot TTS model for expressive long-form monologue and dialogue with one to four speakers.",
     links: [
       { label: "Paper", href: "https://arxiv.org/abs/2605.30993" },
-      { label: "Demo", href: "https://swanaigc.github.io/#swanvoice" }
+      { label: "Demo", href: "https://swanaigc.github.io/#swanvoice" },
+      {
+        label: "#3 Paper of the Day",
+        href: "https://huggingface.co/papers/2605.30993"
+      }
     ],
     featured: true
   },
