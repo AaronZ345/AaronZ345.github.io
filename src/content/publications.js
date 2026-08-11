@@ -79,7 +79,8 @@ export const publications = [
     authors: "Changhao Pan, Rui Yang, Han Wang, Zhuan Zhou, Xuming He, Wenxiang Guo, Ziyue Jiang, Ruiqi Li, Yu Zhang, et al.",
     links: [
       { label: "Paper", href: "https://arxiv.org/abs/2605.28618" },
-      { label: "Demo", href: "https://swanaigc.github.io/#bench" }
+      { label: "Demo", href: "https://swanaigc.github.io/#bench" },
+      { label: "Code", href: "https://github.com/MM-Speech/SwanBench-Speech" }
     ]
   },
   {
