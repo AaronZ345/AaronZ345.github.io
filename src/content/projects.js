@@ -23,7 +23,7 @@ export const projects = [
   },
   {
     name: "Athena Personal Academic Page",
-    role: "Developer",
+    role: "Maintainer",
     description:
       "A React and Vite template for building responsive academic homepages on GitHub Pages.",
     tags: ["Academic Page", "React", "Vite"],
@@ -34,7 +34,7 @@ export const projects = [
   },
   {
     name: "Codebase Argus",
-    role: "Developer",
+    role: "Maintainer",
     description:
       "A multi-agent toolkit for PR review, CI triage, and safe downstream fork synchronization.",
     tags: ["PR Review", "Fork Sync", "Multi-Agent"],
