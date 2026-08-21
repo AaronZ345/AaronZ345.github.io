@@ -227,6 +227,7 @@ export const publications = [
       { label: "Paper", href: "https://arxiv.org/abs/2409.13832" },
       { label: "Demo", href: "https://aaronz345.github.io/GTSingerDemo/" },
       { label: "Dataset", href: "https://huggingface.co/datasets/AaronZ345/GTSinger" },
+      { label: "SVCC 2025", href: "https://www.vc-challenge.org/" },
       { label: "Code", href: "https://github.com/AaronZ345/GTSinger" },
       { label: "WeChat@机器之心", href: "https://mp.weixin.qq.com/s/B1Iqr-24l57f0MslzYEslA" },
       { label: "WeChat@PaperWeekly", href: "https://mp.weixin.qq.com/s/6RLdUzJM5PItklKUTTNz2w" },
