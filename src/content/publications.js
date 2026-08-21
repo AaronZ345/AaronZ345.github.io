@@ -72,6 +72,14 @@ export const publications = [
     ]
   },
   {
+    title: "X\u00B3-OPD: Distilling Reasoning into Large Audio-Language Models via On-Policy Alignment",
+    venue: "EMNLP 2026",
+    year: "2026",
+    group: "Speech",
+    authors: "Dongjie Fu, Di Cao, Xize Cheng, Zihan Zhang, Wenxu Jia, Yifu Chen, Shengpeng Ji, Yu Zhang, et al.",
+    links: []
+  },
+  {
     title: "Comprehensive Benchmarking of Long-Form Speech Generation in Diverse Scenarios",
     venue: "ACL 2026",
     year: "2026",
@@ -84,8 +92,8 @@ export const publications = [
     ]
   },
   {
-    title: "A Survey of Full-Duplex Spoken Dialogue Systems: Architectural Hierarchy, Interaction Ontology, and Decision State Machine",
-    venue: "Preprint",
+    title: "Speaking While Listening: A Survey and Empirical Audit of Full-Duplex Spoken Dialogue Systems",
+    venue: "EMNLP 2026",
     year: "2026",
     group: "Speech",
     authors: "Jingyu Lu, Yuhan Wang, Jianming Luo, Yifu Chen, Tianle Liang, Shengpeng Ji, Ziyue Jiang, Xiaoda Yang, Yu Zhang, et al.",
@@ -167,6 +175,14 @@ export const publications = [
     ]
   },
   {
+    title: "One-Stage Multi-Task Instruction-Guided 3D Spatial Audio Editing",
+    venue: "EMNLP 2026 Findings",
+    year: "2026",
+    group: "Spatial Audio",
+    authors: "Ke Lei*, Chenyuhao Wen*, Yu Zhang*, et al.",
+    links: []
+  },
+  {
     title: "MRSAudio: A Large-Scale Multimodal Recorded Spatial Audio Dataset with Refined Annotations",
     venue: "NeurIPS 2025",
     year: "2025",
@@ -178,6 +194,14 @@ export const publications = [
       { label: "Dataset", href: "https://huggingface.co/datasets/verstar/MRSAudio" },
       { label: "Code", href: "https://github.com/MRSAudio/MRSAudio_Main" }
     ]
+  },
+  {
+    title: "CSAVocoder: A Causal Spatial Audio Vocoder Towards Real-Time Spatial Audio Generation",
+    venue: "EMNLP 2026",
+    year: "2026",
+    group: "Spatial Audio",
+    authors: "Zhiyuan Zhu, Han Wang, Wenxiang Guo, Yu Zhang, et al.",
+    links: []
   },
   {
     title: "Spatial-Omni: Spatial Audio Understanding Integration in Multimodal LLMs via FOA Encoding",
