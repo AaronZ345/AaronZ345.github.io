@@ -176,7 +176,7 @@ export const publications = [
   },
   {
     title: "One-Stage Multi-Task Instruction-Guided 3D Spatial Audio Editing",
-    venue: "EMNLP 2026 Findings",
+    venue: "EMNLP 2026",
     year: "2026",
     group: "Spatial Audio",
     authors: "Ke Lei*, Chenyuhao Wen*, Yu Zhang*, et al.",
