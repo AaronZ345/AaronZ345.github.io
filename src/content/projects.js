@@ -64,5 +64,16 @@ export const projects = [
       { label: "Code", href: "https://github.com/volcengine/OpenViking", stars: 26994 },
       { label: "Release", href: "https://github.com/volcengine/OpenViking/releases" }
     ]
+  },
+  {
+    name: "qwen-code",
+    role: "Contributor",
+    description:
+      "An open-source AI coding agent that lives in the terminal and helps developers work with codebases.",
+    tags: ["AI Coding", "CLI Agent", "Developer Tools"],
+    links: [
+      { label: "Code", href: "https://github.com/QwenLM/qwen-code", stars: 27323 },
+      { label: "Release", href: "https://github.com/QwenLM/qwen-code/releases" }
+    ]
   }
 ];
