@@ -17,6 +17,6 @@ export const services = [
   },
   {
     category: "Journal Reviewer",
-    items: ["IEEE TASLP"]
+    items: ["IEEE TASLP", "IEEE TMM"]
   }
 ];
