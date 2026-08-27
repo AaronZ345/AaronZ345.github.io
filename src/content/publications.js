@@ -201,7 +201,9 @@ export const publications = [
     year: "2026",
     group: "Spatial Audio",
     authors: "Zhiyuan Zhu, Han Wang, Wenxiang Guo, Yu Zhang, et al.",
-    links: []
+    links: [
+      { label: "Paper", href: "https://arxiv.org/pdf/2608.25404" }
+    ]
   },
   {
     title: "Spatial-Omni: Spatial Audio Understanding Integration in Multimodal LLMs via FOA Encoding",
