@@ -202,7 +202,7 @@ export const publications = [
     group: "Spatial Audio",
     authors: "Zhiyuan Zhu, Han Wang, Wenxiang Guo, Yu Zhang, et al.",
     links: [
-      { label: "Paper", href: "https://arxiv.org/pdf/2608.25404" }
+      { label: "Paper", href: "https://arxiv.org/abs/2608.25404" }
     ]
   },
   {
