@@ -180,7 +180,11 @@ export const publications = [
     year: "2026",
     group: "Spatial Audio",
     authors: "Ke Lei*, Chenyuhao Wen*, Yu Zhang*, et al.",
-    links: []
+    links: [
+      { label: "Paper", href: "https://arxiv.org/abs/2609.04975" },
+      { label: "Demo", href: "https://swanaigc.github.io/#swanweave" },
+      { label: "Code", href: "https://github.com/MM-Speech/SwanWeave" }
+    ]
   },
   {
     title: "MRSAudio: A Large-Scale Multimodal Recorded Spatial Audio Dataset with Refined Annotations",
