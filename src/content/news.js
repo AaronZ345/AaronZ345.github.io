@@ -3,7 +3,7 @@ export const news = [
     date: "2026.08",
     icon: "accepted",
     text: "SwanWeave is accepted by EMNLP 2026!",
-    href: ""
+    href: "https://arxiv.org/abs/2609.04975"
   },
   {
     date: "2026.08",
