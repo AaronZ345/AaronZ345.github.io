@@ -62,7 +62,7 @@ export const publications = [
   },
   {
     title: "Audio Editing in the Era of Foundation Models: A Survey",
-    venue: "IJCNLP-AACL 2026",
+    venue: "AACL-IJCNLP 2026",
     year: "2026",
     group: "Speech",
     authors: "Changhao Pan, Yifei Fan, Fan Zhuo, Yifu Chen, Wenxiang Guo, Yu Zhang, et al.",
