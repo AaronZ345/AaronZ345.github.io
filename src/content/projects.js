@@ -75,5 +75,16 @@ export const projects = [
       { label: "Code", href: "https://github.com/QwenLM/qwen-code", stars: 27323 },
       { label: "Release", href: "https://github.com/QwenLM/qwen-code/releases" }
     ]
+  },
+  {
+    name: "OpenCodex",
+    role: "Contributor",
+    description:
+      "A provider proxy for using multiple language models with Codex and Claude Code.",
+    tags: ["AI Coding", "Model Routing", "Developer Tools"],
+    links: [
+      { label: "Code", href: "https://github.com/lidge-jun/opencodex", stars: 16430 },
+      { label: "Release", href: "https://github.com/lidge-jun/opencodex/releases" }
+    ]
   }
 ];
