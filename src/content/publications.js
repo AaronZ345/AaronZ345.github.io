@@ -57,7 +57,8 @@ export const publications = [
     authors: "Fangming Feng, Dongjie Fu, Zequn Xie, Yu Zhang, et al.",
     links: [
       { label: "Paper", href: "https://aclanthology.org/2026.acl-long.998/" },
-      { label: "Demo", href: "https://showtts.github.io/emotionTTS/" }
+      { label: "Demo", href: "https://showtts.github.io/emotionTTS/" },
+      { label: "Code", href: "https://github.com/MM-Speech/EMO-TTS" }
     ]
   },
   {
@@ -68,7 +69,7 @@ export const publications = [
     authors: "Changhao Pan, Yifei Fan, Fan Zhuo, Yifu Chen, Wenxiang Guo, Yu Zhang, et al.",
     links: [
       { label: "Paper", href: "https://arxiv.org/abs/2606.23139" },
-      { label: "Project", href: "https://github.com/DaViD-Pigeon/AudioEditSurvey" }
+      { label: "Project", href: "https://github.com/MM-Speech/AudioEditSurvey" }
     ]
   },
   {
@@ -101,7 +102,7 @@ export const publications = [
     authors: "Jingyu Lu, Yuhan Wang, Jianming Luo, Yifu Chen, Tianle Liang, Shengpeng Ji, Ziyue Jiang, Xiaoda Yang, Yu Zhang, et al.",
     links: [
       { label: "Paper", href: "https://arxiv.org/abs/2606.19453" },
-      { label: "Project", href: "https://github.com/DuplexLM/DuplexSurvey" }
+      { label: "Project", href: "https://github.com/MM-Speech/DuplexSurvey" }
     ]
   },
   {
@@ -208,7 +209,8 @@ export const publications = [
     group: "Spatial Audio",
     authors: "Zhiyuan Zhu, Han Wang, Wenxiang Guo, Yu Zhang, et al.",
     links: [
-      { label: "Paper", href: "https://arxiv.org/abs/2608.25404" }
+      { label: "Paper", href: "https://arxiv.org/abs/2608.25404" },
+      { label: "Code", href: "https://github.com/MM-Speech/CSAVocoder" }
     ]
   },
   {
