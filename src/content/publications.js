@@ -77,7 +77,9 @@ export const publications = [
     year: "2026",
     group: "Speech",
     authors: "Dongjie Fu, Di Cao, Xize Cheng, Zihan Zhang, Wenxu Jia, Yifu Chen, Shengpeng Ji, Yu Zhang, et al.",
-    links: []
+    links: [
+      { label: "Paper", href: "https://arxiv.org/abs/2607.21550" }
+    ]
   },
   {
     title: "Comprehensive Benchmarking of Long-Form Speech Generation in Diverse Scenarios",
