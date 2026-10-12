@@ -256,12 +256,8 @@ export const publications = [
     links: [
       { label: "Paper", href: "https://arxiv.org/abs/2504.19062" },
       { label: "Demo", href: "https://aaronz345.github.io/VersBandDemo/" },
-      { label: "Code", href: "https://github.com/AaronZ345/VersBand" },
-      { label: "WeChat@语音之家", href: "https://mp.weixin.qq.com/s/fsbNdPyfEFi-_QHOCy85RQ" },
-      { label: "WeChat@PaperWeekly", href: "https://mp.weixin.qq.com/s/tIwnbBXqVEwlUKRwxPceSA" },
-      { label: "Zhihu", href: "https://zhuanlan.zhihu.com/p/1943351555119097448" }
-    ],
-    featured: true
+      { label: "Code", href: "https://github.com/AaronZ345/VersBand" }
+    ]
   },
   {
     title: "TCSinger 2: Customizable Multilingual Zero-shot Singing Voice Synthesis",
@@ -312,9 +308,9 @@ export const publications = [
       { label: "Paper", href: "https://arxiv.org/abs/2312.10741" },
       { label: "Demo", href: "https://aaronz345.github.io/StyleSingerDemo/" },
       { label: "Code", href: "https://github.com/AaronZ345/StyleSinger" },
-      // { label: "Zhihu", href: "https://zhuanlan.zhihu.com/p/775792127" }
+      { label: "Zhihu", href: "https://zhuanlan.zhihu.com/p/775792127" }
     ],
-    // featured: true
+    featured: true
   },
   {
     title: "STARS: A Unified Framework for Singing Transcription, Alignment, and Refined Style Annotation",
