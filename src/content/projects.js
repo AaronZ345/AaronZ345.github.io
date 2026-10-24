@@ -33,6 +33,28 @@ export const projects = [
     ]
   },
   {
+    name: "xiaoheihe-cli",
+    role: "Maintainer",
+    description:
+      "A CLI for Xiaoheihe game records, personal reviews, and community content, with Python SDK, REST API, and MCP support.",
+    tags: ["Gaming", "CLI", "MCP"],
+    links: [
+      { label: "Code", href: "https://github.com/AaronZ345/xiaoheihe-cli", stars: 62 },
+      { label: "Docs", href: "https://github.com/AaronZ345/xiaoheihe-cli/blob/main/docs/cli.md" }
+    ]
+  },
+  {
+    name: "douban-cli",
+    role: "Maintainer",
+    description:
+      "A CLI for Douban movies, books, lists, ratings, and personal reviews, with MCP and agent integrations.",
+    tags: ["Movies & Books", "CLI", "MCP"],
+    links: [
+      { label: "Code", href: "https://github.com/AaronZ345/douban-cli", stars: 59 },
+      { label: "Release", href: "https://github.com/AaronZ345/douban-cli/releases" }
+    ]
+  },
+  {
     name: "Codebase Argus",
     role: "Maintainer",
     description:
