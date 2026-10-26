@@ -3,7 +3,7 @@ export const services = [
     category: "Conference Reviewer",
     items: [
       "NeurIPS 2024, 2025, 2026",
-      "ICLR 2025, 2026",
+      "ICLR 2025, 2026, 2027",
       "ICML 2026, 2027",
       "CVPR 2026",
       "ACL 2024, 2025, 2026",
