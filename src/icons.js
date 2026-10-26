@@ -56,6 +56,7 @@ export const publicationGroupIconMap = {
 };
 
 export const serviceIconMap = {
+  "Area Chair": clipboardIcon,
   "Conference Reviewer": classicalBuildingIcon,
   "Journal Reviewer": ledgerIcon
 };
