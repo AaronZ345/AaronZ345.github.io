@@ -156,8 +156,7 @@ export const publications = [
     featured: true
   },
   {
-    title: "Spatial Audio Generation and Editing with Executable Plans and Self-Distilling Transfusion",
-    brand: "AMBIT",
+    title: "AMBIT: Spatial Audio Generation and Editing with Executable Plans and Self-Distilling Transfusion",
     venue: "Preprint",
     year: "2026",
     group: "Spatial Audio",
