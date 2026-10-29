@@ -390,6 +390,7 @@ function CompactPaper({ paper, githubStats }) {
         {paper.venue}
       </span>
       <div className="compact-main">
+        {paper.brand ? <span className="paper-brand">{paper.brand}</span> : null}
         <h4>{paper.title}</h4>
         <p className="authors">{highlightName(paper.authors)}</p>
       </div>
