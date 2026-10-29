@@ -83,7 +83,7 @@ export const publications = [
     ]
   },
   {
-    title: "Comprehensive Benchmarking of Long-Form Speech Generation in Diverse Scenarios",
+    title: "SwanBench-Speech: Comprehensive Benchmarking of Long-Form Speech Generation in Diverse Scenarios",
     venue: "ACL 2026",
     year: "2026",
     group: "Speech",
@@ -157,6 +157,7 @@ export const publications = [
   },
   {
     title: "Spatial Audio Generation and Editing with Executable Plans and Self-Distilling Transfusion",
+    brand: "AMBIT",
     venue: "Preprint",
     year: "2026",
     group: "Spatial Audio",
