@@ -1,3 +1,4 @@
+import balanceScaleIcon from "@iconify-icons/twemoji/balance-scale";
 import briefcaseIcon from "@iconify-icons/twemoji/briefcase";
 import booksIcon from "@iconify-icons/twemoji/books";
 import bookmarkTabsIcon from "@iconify-icons/twemoji/bookmark-tabs";
@@ -56,7 +57,7 @@ export const publicationGroupIconMap = {
 };
 
 export const serviceIconMap = {
-  "Area Chair": clipboardIcon,
+  "Area Chair": balanceScaleIcon,
   "Conference Reviewer": classicalBuildingIcon,
   "Journal Reviewer": ledgerIcon
 };
