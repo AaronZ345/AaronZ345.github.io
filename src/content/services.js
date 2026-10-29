@@ -1,7 +1,7 @@
 export const services = [
   {
     category: "Area Chair",
-    items: ["NAACL (2027)"]
+    items: ["NAACL 2027"]
   },
   {
     category: "Conference Reviewer",
