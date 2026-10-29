@@ -156,6 +156,20 @@ export const publications = [
     featured: true
   },
   {
+    title: "Spatial Audio Generation and Editing with Executable Plans and Self-Distilling Transfusion",
+    venue: "Preprint",
+    year: "2026",
+    group: "Spatial Audio",
+    authors: "Kam Man Wu*, Yu Zhang*, Pengjun Fang, et al.",
+    summary:
+      "AMBIT unifies FOA spatial audio generation and editing with executable scene plans, a shared Transfusion backbone, and on-policy self-distillation.",
+    links: [
+      { label: "Paper", href: "https://arxiv.org/abs/2610.34415" },
+      { label: "Project", href: "https://wjm-george.github.io/AMBIT/" },
+      { label: "Code", href: "https://github.com/WJM-George/AMBIT" }
+    ]
+  },
+  {
     title: "ASAudio: A Survey of Advanced Spatial Audio Research",
     venue: "IJCNLP-AACL 2025",
     year: "2025",
