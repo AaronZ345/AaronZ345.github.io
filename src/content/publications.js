@@ -138,7 +138,7 @@ export const publications = [
     featured: true
   },
   {
-    title: "Towards Streaming Synchronized Spatial Audio Generation via Autoregressive Diffusion Transformer",
+    title: "SwanSphere: Towards Streaming Synchronized Spatial Audio Generation via Autoregressive Diffusion Transformer",
     venue: "ICML 2026",
     year: "2026",
     group: "Spatial Audio",
@@ -192,7 +192,7 @@ export const publications = [
     ]
   },
   {
-    title: "One-Stage Multi-Task Instruction-Guided 3D Spatial Audio Editing",
+    title: "SwanWeave: One-Stage Multi-Task Instruction-Guided 3D Spatial Audio Editing",
     venue: "EMNLP 2026",
     year: "2026",
     group: "Spatial Audio",
@@ -260,7 +260,7 @@ export const publications = [
     featured: true
   },
   {
-    title: "Versatile Framework for Song Generation with Prompt-based Control",
+    title: "VersBand: Versatile Framework for Song Generation with Prompt-based Control",
     venue: "EMNLP 2025",
     year: "2025",
     group: "Singing Voice",
