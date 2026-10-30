@@ -12,4 +12,6 @@ Edit these files for homepage content:
 - `awards.js`: honors list.
 - `services.js`: reviewer service list.
 
+Service items accept a plain string or `{ label, href }`. Use the conference's permanent website or its society's conference page for `href`. Trailing years in `label` are displayed separately from the linked name.
+
 Images stay in `public/images/`.
