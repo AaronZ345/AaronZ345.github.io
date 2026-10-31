@@ -55,6 +55,17 @@ export const projects = [
     ]
   },
   {
+    name: "steam-cli",
+    role: "Maintainer",
+    description:
+      "A CLI for Steam games, prices, libraries, achievements, and reviews, with MCP, REST API, and SDK integrations.",
+    tags: ["Gaming", "CLI", "MCP"],
+    links: [
+      { label: "Code", href: "https://github.com/AaronZ345/steam-cli" },
+      { label: "Docs", href: "https://github.com/AaronZ345/steam-cli/blob/main/docs/cli.md" }
+    ]
+  },
+  {
     name: "Codebase Argus",
     role: "Maintainer",
     description:
