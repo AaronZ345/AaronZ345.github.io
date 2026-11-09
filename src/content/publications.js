@@ -165,7 +165,7 @@ export const publications = [
       "AMBIT unifies FOA spatial audio generation and editing with executable scene plans, a shared Transfusion backbone, and on-policy self-distillation.",
     links: [
       { label: "Paper", href: "https://arxiv.org/abs/2610.34415" },
-      { label: "Project", href: "https://wjm-george.github.io/AMBIT/" },
+      { label: "Demo", href: "https://wjm-george.github.io/AMBIT/" },
       { label: "Code", href: "https://github.com/WJM-George/AMBIT" }
     ]
   },
