@@ -9,7 +9,7 @@ export const services = [
       { label: "NeurIPS 2024, 2025, 2026", href: "https://neurips.cc/" },
       { label: "ICLR 2025, 2026, 2027", href: "https://iclr.cc/" },
       { label: "ICML 2026, 2027", href: "https://icml.cc/" },
-      { label: "CVPR 2026", href: "https://cvpr.thecvf.com/" },
+      { label: "CVPR 2026, 2027", href: "https://cvpr.thecvf.com/" },
       { label: "ACL 2024, 2025, 2026", href: "https://www.aclweb.org/portal/acl" },
       { label: "AAAI 2026, 2027", href: "https://aaai.org/conference/aaai/" },
       { label: "WWW 2027", href: "https://thewebconf.org/" },
